@@ -1,0 +1,67 @@
+capability,priority,status,scope_or_gap,evidence,roadmap_acceptance
+Manual trigger,P0,Tested,"JSON-object input, published graph snapshot, real persisted execution",tests/integration.test.ts,"Run with injected, validated input"
+HTTP webhook trigger,P0,Not Started,No connected implementation in 0.1,,"Dedicated URL, optional auth, deterministic 2xx/4xx/5xx response"
+Scheduled trigger,P0,Not Started,No connected implementation in 0.1,,"Cron, timezone, DST semantics, missed-run policy"
+HTTP request,P0,Not Started,No connected implementation in 0.1,,"Auth, body modes, pagination, timeouts, retry, response mapping, SSRF mitigation"
+Set/edit fields,P0,In Progress,JSON merge and durable output references work; general expression transforms and bulk arrays are pending,packages/shared/src/index.ts,"Typed expressions, map/merge, bulk array support"
+Condition / IF / switch,P0,In Progress,Strict comparisons and true/false routing tested; switch/case and branch joins pending,apps/api/src/execution/engine.ts,Explicit case ports and mutually exclusive branch semantics
+Loop / iterator,P0,Not Started,No connected implementation in 0.1,,"Bounded iteration, loop context, pause/resume"
+Merge/join,P0,Not Started,No connected implementation in 0.1,,Branch-aware joins with wait-for-all / first / keyed merge strategies
+Code,P1,Not Started,No connected implementation in 0.1,,"Sandboxed JS (and Python if approved), CPU/memory/runtime limits"
+Subflow,P1,Not Started,No connected implementation in 0.1,,"Version-pinned calls, parameter contract, recursion guard"
+Wait / Delay,P0,Tested,Durable 1–3600 second wait with restart-safe checkpoints,tests/integration.test.ts,Durable timer; survives server restart
+Approval,P1,Not Started,No connected implementation in 0.1,,"Human-assigned approve/reject, expiry, audit and resume"
+Data transform,P0,Not Started,No connected implementation in 0.1,,"JSON path, flatten, array split/aggregate, format dates, parse CSV"
+SQL and databases,P1,Not Started,No connected implementation in 0.1,,"Least privilege, parameterized queries, credentials isolation"
+Message/event queues,P1,Not Started,No connected implementation in 0.1,,"Kafka/RabbitMQ/Redis adapters, idempotent consumption"
+Email and notifications,P1,Not Started,No connected implementation in 0.1,,"SMTP, templates, secure config, failure/receipt logging"
+SaaS connectors,P2,Not Started,No connected implementation in 0.1,,"Registry, OAuth, pagination, rate limiting and connector tests"
+Error workflow,P1,Not Started,No connected implementation in 0.1,,"Catch/compensate, run status, configured recovery"
+Variables and secrets,P0,Not Started,No connected implementation in 0.1,,"Typed references, redaction, no plaintext credentials in graph"
+Retries and timeout,P0,In Progress,Atomic pure-step replay and a 24-hour run deadline; configurable retries/side-effect protocol pending,apps/api/src/execution/engine.ts,Per-node policy with exponential backoff/jitter and max attempts
+Activation & versions,P0,In Progress,Immutable publication/history and version-pinned runs work; rollback and activation lifecycle pending,apps/api/src/workflows/workflows.ts,"Draft, published immutable revision and rollback"
+Execution logs,P0,In Progress,"Persisted per-node I/O, statuses, errors and replayable events; retention/encryption and full traces pending",apps/api/src/execution,"Node timeline, streamed events, redacted I/O, retention"
+Workflow templates,P1,Not Started,No connected implementation in 0.1,,"Search, clone, required setup and import/export"
+Credentials,P0,Not Started,No connected implementation in 0.1,,"Provider-based, encrypted at rest, RBAC and test connection"
+Run from node,P1,Not Started,No connected implementation in 0.1,,Debug with fixtures and safe handling of side effects
+Item-level execution,P1,Not Started,No connected implementation in 0.1,,Data batch and per-item failure semantics documented
+OpenAI-compatible LLM,P0,Not Started,No connected implementation in 0.1,,"Base URL + model name, test, streaming, health"
+Multi-provider registry,P0,Not Started,No connected implementation in 0.1,,Multiple endpoints / per-workspace authorization
+Chatflow,P0,Not Started,No connected implementation in 0.1,,"Session, history, typed user variables, streamed answer"
+LLM node,P0,Not Started,No connected implementation in 0.1,,"System/user templates, temperature, max tokens, structured output"
+Prompt Studio,P1,Not Started,No connected implementation in 0.1,,"Versioned prompt templates, variables, side-by-side test, eval"
+AI Agent,P0,Not Started,No connected implementation in 0.1,,"Bounded tool calls, policy, memory, intermediate trace, stop reason"
+Tool calling,P0,Not Started,No connected implementation in 0.1,,"JSON Schema validation, approval for privileged tools"
+RAG knowledge base,P0,Not Started,No connected implementation in 0.1,,"Ingest, chunk, embed, index, semantic search, citations"
+Hybrid retrieval,P1,Not Started,No connected implementation in 0.1,,"Keyword + vector, configurable fusion, rerank"
+Knowledge pipeline,P1,Not Started,No connected implementation in 0.1,,"Extraction → clean → chunk → embed → index, inspect status"
+Document extraction,P0,Not Started,No connected implementation in 0.1,,PDF/DOCX/PPTX/XLSX/HTML/TXT/Markdown supported by installed readers
+OCR,P1,Not Started,No connected implementation in 0.1,,"Pluggable local OCR service, processing trace, confidence metadata"
+Vision,P1,Not Started,No connected implementation in 0.1,,Image input to vision-capable configured model
+STT,P1,Not Started,No connected implementation in 0.1,,Offline speech-to-text endpoint and transcription node
+TTS,P1,Not Started,No connected implementation in 0.1,,Offline text-to-speech endpoint and playback/asset node
+Image generation,P2,Not Started,No connected implementation in 0.1,,Authorized local model providers and asynchronous job/result
+Embeddings,P0,Not Started,No connected implementation in 0.1,,"Batch embed, model version metadata, retry, dimensions"
+Reranking,P1,Not Started,No connected implementation in 0.1,,"Cross-encoder API, score/provenance and model fallback"
+Conversation memory,P1,Not Started,No connected implementation in 0.1,,"Scoped retention, summary, retrieval, delete/export"
+Multi-agent,P1,Not Started,No connected implementation in 0.1,,"Router, delegator, specialists, delegated run limits"
+MCP client/server,P1,Not Started,No connected implementation in 0.1,,"Trust policy, authenticated servers, controlled capabilities"
+Knowledge citation,P0,Not Started,No connected implementation in 0.1,,"Source ID, filename, section/page when available"
+Structured response,P0,Not Started,No connected implementation in 0.1,,"JSON Schema, validation and repair limit"
+Safety and guardrails,P0,Not Started,No connected implementation in 0.1,,"Input/output policy hooks, prompt injection defenses, PII masking"
+Human-in-the-loop,P1,Not Started,No connected implementation in 0.1,,"Approval actions, escalation, immutable decision trace"
+AI evaluation,P1,Not Started,No connected implementation in 0.1,,"Golden sets, scoring, regression detection, prompt/model comparisons"
+AI observability,P0,Not Started,No connected implementation in 0.1,,"Token counts, latency, usage, failures, trace IDs"
+App publishing,P1,Not Started,No connected implementation in 0.1,,"Versioned HTTP API, chat widget, service key, quotas"
+AI application templates,P1,Not Started,No connected implementation in 0.1,,"Create chat assistant, RAG bot, extraction flow, agent tool flow"
+AI credential privacy,P0,Not Started,No connected implementation in 0.1,,"Secret references, no user-visible raw keys"
+Studio CRUD/search/archive,P0,Tested,Durable create/list/search/reload/duplicate/archive/restore,tests/e2e/studio.spec.ts,
+Canvas and workbench,P0,In Progress,"Five connectable node families; autosave, conflicts, undo/redo and real data mapping. Full keyboard/multi-selection/clipboard/viewport parity pending",apps/web/src/editor,
+Local authentication and workspace RBAC,P0,Tested,Bootstrap and local login sessions with server-side access checks; enterprise SSO/member management still pending,tests/integration.test.ts,
+OIDC/SAML and enterprise administration,P1,Not Started,No SSO/member/policy management interfaces,,
+Form/app publishing,P0,Not Started,"No public forms, agent presentations, widgets or app APIs",,
+Advanced node metadata and parameter operations,P0,Not Started,No connector resource schema discovery or plugin migration layer,,
+Light/dark and responsive Studio,P0,Tested,Desktop light/dark and 390/1366/1920 px captures,docs/screenshots,
+Arabic RTL,P1,Not Started,English interface only,,
+Full upstream parity audit,P1,In Progress,Pinned trees and targeted source review only; discovered paths are not reviewed implementations,docs/upstream-audit.md,
+Production hardening,P1,In Progress,"Local access checks and restore smoke tested; SSO, secrets, encryption, retention, quotas/load and deployment certification pending",docs/architecture-decisions/001-foundation.md,

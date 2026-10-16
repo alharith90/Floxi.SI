@@ -1,0 +1,9 @@
+concept,implementation,persisted_state,proof,limitation
+Immutable execution graph,apps/api/src/execution/execution.ts,Run.graph and Run.version,tests/integration.test.ts,No version rollback UI
+Atomic work claim,apps/api/src/execution/engine.ts,Run row FOR UPDATE SKIP LOCKED,tests/integration.test.ts,Pure node handlers only
+Checkpoint and replay,apps/api/src/execution/engine.ts,Unique run and node Step checkpoint,tests/integration.test.ts,No external side-effect adapter admitted
+Durable timer,apps/api/src/execution/engine.ts,Step.wakeAt and Run.leaseUntil,tests/integration.test.ts,No scheduler trigger
+Branch exclusion,apps/api/src/execution/engine.ts,Step.port and SKIPPED status,tests/integration.test.ts,No multi-input joins
+Live event delivery,apps/api/src/realtime.ts,Monotonic RunEvent.sequence,tests/integration.test.ts,Database polling transport not a notification outbox
+Run request deduplication,apps/api/src/execution/execution.ts,Workflow and idempotencyKey unique,tests/integration.test.ts,Caller must retain key for retry
+Backup and restore,scripts/backup-smoke.ts,Actual execution and migration checksums,docs/runbooks/database.md,Local plaintext dump only

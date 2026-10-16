@@ -1,0 +1,8 @@
+reference_concept,native_component,api,persistence,proof,status
+Dify Studio library,apps/web/src/Studio.tsx,GET /api/studio/apps,Workflow,tests/e2e/studio.spec.ts,Tested bounded slice
+Create draft,apps/web/src/Studio.tsx,POST /api/workflows,Workflow,tests/e2e/studio.spec.ts,Tested
+n8n graph interactions,apps/web/src/editor/Editor.tsx,PATCH /api/workflows/:id/draft,Workflow.graph,tests/e2e/studio.spec.ts,Partial
+Three pane inspector,apps/web/src/editor/Workbench.tsx,GET /api/executions/:id,Step,docs/screenshots/workbench-light.png,Partial
+Actual output mapping,apps/web/src/editor/Workbench.tsx,PATCH /api/workflows/:id/draft,Graph reference with node ID and JSON Pointer,tests/e2e/studio.spec.ts,Tested bounded slice
+Published history,apps/web/src/editor/Editor.tsx,GET /api/workflows/:id/versions,Version,tests/integration.test.ts,Tested list only
+Execution timeline,apps/web/src/executions/Executions.tsx,GET /api/executions/:id,Run and Step and RunEvent,tests/integration.test.ts,Tested bounded slice

@@ -1,0 +1,199 @@
+generator client {
+ provider = "prisma-client-js"
+ engineType = "client"
+}
+datasource db {
+ provider = "postgresql"
+ url = env("DATABASE_URL")
+}
+model User {
+ id String @id @default(uuid()) @db.Uuid
+ email String @unique
+ passwordHash String
+ createdAt DateTime @default(now())
+ sessions Session[]
+ memberships Membership[]
+}
+model Session {
+ id String @id
+ userId String @db.Uuid
+ user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+ expiresAt DateTime
+}
+model Workspace {
+ id String @id @default(uuid()) @db.Uuid
+ name String
+ memberships Membership[]
+ workflows Workflow[]
+ audits Audit[]
+ endpoints ModelEndpoint[]
+ knowledgeBases KnowledgeBase[]
+ aiJobs AiJob[]
+}
+model Membership {
+ userId String @db.Uuid
+ workspaceId String @db.Uuid
+ role String
+ user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+ workspace Workspace @relation(fields:[workspaceId],references:[id],onDelete:Cascade)
+ @@id([userId,workspaceId])
+}
+model Workflow {
+ id String @id @default(uuid()) @db.Uuid
+ workspaceId String @db.Uuid
+ workspace Workspace @relation(fields:[workspaceId],references:[id])
+ name String
+ description String @default("")
+ graph Json
+ revision Int @default(1)
+ publishedVersion Int?
+ archived Boolean @default(false)
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ versions Version[]
+ runs Run[]
+ @@index([workspaceId,updatedAt])
+}
+model Version {
+ id String @id @default(uuid()) @db.Uuid
+ workflowId String @db.Uuid
+ workflow Workflow @relation(fields:[workflowId],references:[id])
+ number Int
+ graph Json
+ createdAt DateTime @default(now())
+ runs Run[] @relation("PublishedRun")
+ @@unique([workflowId,number])
+}
+model Run {
+ id String @id @default(uuid()) @db.Uuid
+ workflowId String @db.Uuid
+ workflow Workflow @relation(fields:[workflowId],references:[id])
+ actorId String? @db.Uuid
+ version Int
+ published Version @relation("PublishedRun",fields:[workflowId,version],references:[workflowId,number])
+ idempotencyKey String?
+ graph Json
+ input Json
+ status String @default("QUEUED")
+ error String?
+ createdAt DateTime @default(now())
+ finishedAt DateTime?
+ leaseUntil DateTime?
+ leaseToken String?
+ steps Step[]
+ events RunEvent[]
+ @@unique([workflowId,idempotencyKey])
+ @@index([status,leaseUntil])
+}
+model Step {
+ id String @id @default(uuid()) @db.Uuid
+ runId String @db.Uuid
+ run Run @relation(fields:[runId],references:[id])
+ nodeId String @db.Uuid
+ status String
+ input Json
+ output Json
+ port String @default("output")
+ error String?
+ wakeAt DateTime?
+ startedAt DateTime @default(now())
+ finishedAt DateTime?
+ @@unique([runId,nodeId])
+}
+model RunEvent {
+ sequence Int @id @default(autoincrement())
+ runId String @db.Uuid
+ run Run @relation(fields:[runId],references:[id])
+ type String
+ nodeId String?
+ createdAt DateTime @default(now())
+ @@index([runId,sequence])
+}
+model Audit {
+ id String @id @default(uuid()) @db.Uuid
+ workspaceId String @db.Uuid
+ workspace Workspace @relation(fields:[workspaceId],references:[id])
+ actorId String @db.Uuid
+ action String
+ resourceId String
+ createdAt DateTime @default(now())
+ @@index([workspaceId,createdAt])
+}
+
+model ModelEndpoint {
+ id String @id @default(uuid()) @db.Uuid
+ workspaceId String @db.Uuid
+ workspace Workspace @relation(fields:[workspaceId],references:[id])
+ name String
+ baseUrl String
+ apiStyle String @default("chat-completions")
+ chatModel String?
+ embeddingModel String?
+ dimensions Int?
+ credentialEnv String?
+ health String @default("UNTESTED")
+ lastError String?
+ testedAt DateTime?
+ createdAt DateTime @default(now())
+ knowledgeBases KnowledgeBase[]
+ @@unique([id,workspaceId])
+ @@index([workspaceId,createdAt])
+}
+model KnowledgeBase {
+ id String @id @default(uuid()) @db.Uuid
+ workspaceId String @db.Uuid
+ workspace Workspace @relation(fields:[workspaceId],references:[id])
+ endpointId String @db.Uuid
+ endpoint ModelEndpoint @relation(fields:[endpointId,workspaceId],references:[id,workspaceId])
+ name String
+ createdAt DateTime @default(now())
+ documents Document[]
+ @@unique([id,workspaceId])
+ @@index([workspaceId,createdAt])
+}
+model Document {
+ id String @id @default(uuid()) @db.Uuid
+ workspaceId String @db.Uuid
+ knowledgeBaseId String @db.Uuid
+ knowledgeBase KnowledgeBase @relation(fields:[knowledgeBaseId,workspaceId],references:[id,workspaceId])
+ title String
+ content String
+ contentHash String
+ status String @default("QUEUED")
+ error String?
+ chunkCount Int @default(0)
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ chunks DocumentChunk[]
+ @@unique([knowledgeBaseId,contentHash])
+ @@index([knowledgeBaseId,status])
+}
+model DocumentChunk {
+ id String @id @default(uuid()) @db.Uuid
+ documentId String @db.Uuid
+ document Document @relation(fields:[documentId],references:[id])
+ ordinal Int
+ body String
+ embedding Unsupported("vector")
+ @@unique([documentId,ordinal])
+}
+model AiJob {
+ id String @id @default(uuid()) @db.Uuid
+ workspaceId String @db.Uuid
+ workspace Workspace @relation(fields:[workspaceId],references:[id])
+ actorId String @db.Uuid
+ kind String
+ payload Json
+ runId String? @db.Uuid
+ nodeId String? @db.Uuid
+ documentId String? @db.Uuid
+ status String @default("PENDING")
+ token String?
+ leaseUntil DateTime?
+ error String?
+ createdAt DateTime @default(now())
+ finishedAt DateTime?
+ @@index([status,leaseUntil])
+ @@index([runId])
+ @@index([documentId])
+}

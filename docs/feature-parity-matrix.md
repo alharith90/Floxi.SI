@@ -1,0 +1,27 @@
+# Feature status — Floxi.SI 0.1
+
+The cumulative roadmap is much larger than this first release. **No full milestone, source parity, or production-completeness claim is made.** Status applies to the explicitly bounded slice below. The [core feature CSV](PARITY_GAPS.csv) inventories the main workflow/AI tables and major platform gaps; it is not an exhaustive decomposition of every assertion in all appendices.
+
+| Capability | Status | Connected implementation | Proof / remaining gap |
+|---|---|---|---|
+| Local administrator setup, login/logout and sessions | Tested | `apps/api/src/auth/auth.ts`, `apps/web/src/App.tsx` | Login/revocation/takeover denial tests; no default credentials. OIDC/SAML and member administration not started |
+| Workspace isolation and role checks | Tested | API guards and scoped queries in workflows/execution/realtime | Cross-workspace read/write/run denial, viewer write denial, authenticated socket replay tests. No user-facing role editor |
+| Studio workflow lifecycle | Tested | `Studio.tsx` → Nest workflows → Prisma/PostgreSQL | Browser create/search/reload/open/duplicate/archive/restore; [Studio screenshot](screenshots/studio-light.png). Favorites/tags/sharing/templates/full pagination not started |
+| Graph canvas | In Progress | `Editor.tsx`, Zustand history, shared registry and validation | Pointer connections and reload persistence tested. Dragging, zoom/minimap, undo/redo available. Not yet benchmarked at 30/500 nodes; clipboard/multi-selection/viewport persistence incomplete |
+| Draft concurrency and recovery | Tested | Revision compare-and-swap, serialized autosave, conflict export, navigation blocker | API stale save 409; browser save-before-leave test. No collaborative merge |
+| Immutable publication and history | Tested | Prisma Version table, transactional publish and Run version FK | Runs use published snapshots after draft edits. UI history lists versions. Rollback/version diff not started |
+| Schema-driven workbench | In Progress | Resizable/collapsible Input/Parameters/Output panes, JSON/number/value/select controls | [Workbench screenshot](screenshots/workbench-light.png); actual-output JSON/Table/Schema, durable mapping and persisted run selection. Native drag payload tested; full pointer mapping and keyboard pane resizing need additional coverage. No Execute Step endpoint, provider controls or dynamic schemas |
+| Manual / Set fields / Response | Tested | Shared catalog, validation, Prisma checkpoints, worker handlers | 100 persisted real graph runs; mapped values and missing-path errors verified. General expression language and item-level transformations not implemented |
+| Conditions | Tested | Strict equals/not-equals/greater-than/contains; true/false output ports | Mutually exclusive paths marked skipped. No switch nodes or branch-aware joins |
+| Durable wait and cancellation | Tested | Saved wake time and input; short transactional claims | New-connection resume preserves checkpoint ID; cancelled runs stay cancelled. Only 1–3600 second waits supported |
+| Worker concurrency and crash-safe checkpoints | Tested | `FOR UPDATE SKIP LOCKED`; per-step transactional I/O/events | Concurrent tick claims do not duplicate checkpoints. Pure-node-only replay model; no externally visible side effects, retry policies or fenced external adapters |
+| Execution inspector and realtime | Tested | Persisted timeline, node I/O, Socket.IO cursor replay, REST fallback | Unauthorized sockets denied and replay cursor tested. Retention, payload encryption, redaction for secret-bearing adapters and OpenTelemetry not implemented |
+| OpenAPI | In Progress | Nest endpoint discovery plus shared Zod request schemas | Internal references checked against actual served contract. Fully generated browser client and exhaustive response schemas pending |
+| Theme and responsive Studio | Tested | Tailwind/design tokens; browser theme preference | Light/dark and 390/1366/1920 px screenshots; Studio horizontal overflow check. Full accessibility audit and Arabic RTL not complete |
+| Database preservation | Tested | Existing PostgreSQL/pgvector; two additive Prisma SQL migrations; checksum runner | Repeat application no-op; backup restored into a separate temporary DB with actual run output, vector version and matching migration checksums. Encrypted/offsite disaster recovery still pending |
+| AI models, chatflows, agents, RAG | Not Started | Existing pgvector prerequisite only | No fabricated provider calls, embeddings or answers. Requires actual local endpoint integration and capabilities tests |
+| Public forms, schedules, webhooks, approvals | Not Started | None | Not exposed as working UI |
+| HTTP, email, IMAP, WhatsApp, MCP, SaaS adapters | Not Started | None | No external adapters or credentials UI are exposed |
+| Enterprise and production operations | Not Started | Foundation role/audit data only | SSO, governance, secrets vault, encryption, retention, deployment center, resource/load tests and offline release packaging remain |
+
+Evidence: [contract/integration report](TEST_RESULTS.json), [browser report](E2E_RESULTS.json), [upstream review](upstream-audit.md), [ADR](architecture-decisions/001-foundation.md). Screenshots use temporary test fixtures removed after validation. CI configuration is supplied but no remote CI run is claimed.
