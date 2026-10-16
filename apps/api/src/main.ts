@@ -22,6 +22,7 @@ import {
 import { WorkflowsModule } from "./workflows/workflows.js";
 import { ExecutionModule } from "./execution/execution.js";
 import { enrichOpenApi } from "./openapi.js";
+import { ModelsModule } from "./ai/models.js";
 import { realtime } from "./realtime.js";
 @Controller("operations")
 @UseGuards(AuthGuard)
@@ -38,7 +39,13 @@ class OperationsController {
   }
 }
 @Module({
-  imports: [DbModule, AuthModule, WorkflowsModule, ExecutionModule],
+  imports: [
+    DbModule,
+    AuthModule,
+    WorkflowsModule,
+    ExecutionModule,
+    ModelsModule,
+  ],
   controllers: [OperationsController],
 })
 class AppModule {}

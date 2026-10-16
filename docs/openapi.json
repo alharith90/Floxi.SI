@@ -564,6 +564,120 @@
           }
         ]
       }
+    },
+    "/api/models": {
+      "get": {
+        "operationId": "ModelsController_list",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "Models"
+        ],
+        "security": [
+          {
+            "cookie": []
+          }
+        ]
+      },
+      "post": {
+        "operationId": "ModelsController_create",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "Models"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EndpointCreateRequest"
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "cookie": []
+          }
+        ]
+      }
+    },
+    "/api/models/{id}/test": {
+      "post": {
+        "operationId": "ModelsController_test",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "Models"
+        ],
+        "security": [
+          {
+            "cookie": []
+          }
+        ]
+      }
+    },
+    "/api/models/{id}/completions": {
+      "post": {
+        "operationId": "ModelsController_completion",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "Models"
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompletionRequest"
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "cookie": []
+          }
+        ]
+      }
     }
   },
   "info": {
@@ -583,6 +697,100 @@
       }
     },
     "schemas": {
+      "EndpointCreateRequest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "baseUrl": {
+            "type": "string",
+            "maxLength": 500,
+            "format": "uri"
+          },
+          "apiStyle": {
+            "default": "chat-completions",
+            "type": "string",
+            "enum": [
+              "chat-completions",
+              "responses"
+            ]
+          },
+          "chatModel": {
+            "default": null,
+            "nullable": true,
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "embeddingModel": {
+            "default": null,
+            "nullable": true,
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "dimensions": {
+            "default": null,
+            "nullable": true,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4096
+          },
+          "credentialEnv": {
+            "default": null,
+            "nullable": true,
+            "type": "string",
+            "pattern": "^FLOXI_MODEL_KEY_[A-Z0-9_]+$"
+          }
+        },
+        "required": [
+          "name",
+          "baseUrl",
+          "apiStyle",
+          "chatModel",
+          "embeddingModel",
+          "dimensions",
+          "credentialEnv"
+        ],
+        "additionalProperties": false
+      },
+      "CompletionRequest": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32000
+          },
+          "system": {
+            "default": "",
+            "type": "string",
+            "maxLength": 8000
+          },
+          "temperature": {
+            "default": 0.7,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "maxTokens": {
+            "default": 512,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4096
+          }
+        },
+        "required": [
+          "prompt",
+          "system",
+          "temperature",
+          "maxTokens"
+        ],
+        "additionalProperties": false
+      },
       "SetupRequest": {
         "type": "object",
         "properties": {

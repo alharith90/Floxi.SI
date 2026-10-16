@@ -122,12 +122,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1644,
+                  "duration": 1732,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-16T08:01:28.754Z",
+                  "startTime": "2026-10-16T08:41:49.421Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -173,12 +173,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 13599,
+                  "duration": 15325,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-16T08:01:30.623Z",
+                  "startTime": "2026-10-16T08:41:51.381Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -197,7 +197,7 @@
           ],
           "id": "64bdea7002f9c9cea9f4-45f2b9e02477f2eef9c0",
           "file": "studio.spec.ts",
-          "line": 73,
+          "line": 74,
           "column": 1
         },
         {
@@ -225,12 +225,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1977,
+                  "duration": 2103,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-16T08:01:44.275Z",
+                  "startTime": "2026-10-16T08:42:06.768Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -249,7 +249,7 @@
           ],
           "id": "64bdea7002f9c9cea9f4-d11db529777596cd6ad6",
           "file": "studio.spec.ts",
-          "line": 255,
+          "line": 256,
           "column": 1
         },
         {
@@ -277,12 +277,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1370,
+                  "duration": 1534,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-16T08:01:46.275Z",
+                  "startTime": "2026-10-16T08:42:08.889Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -301,7 +301,7 @@
           ],
           "id": "64bdea7002f9c9cea9f4-bafb76527203b2102ede",
           "file": "studio.spec.ts",
-          "line": 318,
+          "line": 319,
           "column": 1
         },
         {
@@ -329,12 +329,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1292,
+                  "duration": 1578,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-16T08:01:47.663Z",
+                  "startTime": "2026-10-16T08:42:10.441Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -353,7 +353,59 @@
           ],
           "id": "64bdea7002f9c9cea9f4-51b7d6936f3fd7f8bbac",
           "file": "studio.spec.ts",
-          "line": 336,
+          "line": 337,
+          "column": 1
+        },
+        {
+          "title": "administrator registers a model and sees persisted connection errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [
+                {
+                  "type": "serial",
+                  "location": {
+                    "file": "/workspace/Floxi.SI/tests/e2e/studio.spec.ts",
+                    "line": 0,
+                    "column": 0
+                  }
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1638,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-16T08:42:12.048Z",
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "/workspace/Floxi.SI/tests/e2e/studio.spec.ts",
+                        "line": 0,
+                        "column": 0
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "64bdea7002f9c9cea9f4-4cefa2ebd418ceb0a2c3",
+          "file": "studio.spec.ts",
+          "line": 373,
           "column": 1
         }
       ]
@@ -361,9 +413,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-16T08:01:27.836Z",
-    "duration": 21241.884,
-    "expected": 5,
+    "startTime": "2026-10-16T08:41:48.581Z",
+    "duration": 25214.532000000003,
+    "expected": 6,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

@@ -18,6 +18,7 @@ import {
 import logo from "../../../Logos/logo.png";
 import mark from "../../../Logos/icon2.png";
 import { api, post } from "./api";
+import { Models } from "./Models";
 import { Studio } from "./Studio";
 const Editor = lazy(() =>
   import("./editor/Editor").then((m) => ({ default: m.Editor })),
@@ -73,6 +74,10 @@ export function App() {
             <Activity size={18} />
             Executions
           </NavLink>
+          <NavLink to="/models">
+            <FlowIcon size={18} />
+            Models
+          </NavLink>
           <NavLink to="/roadmap">
             <BookOpen size={18} />
             Delivery roadmap
@@ -120,6 +125,7 @@ export function App() {
             <Route path="/" element={<Studio />} />
             <Route path="/studio/flows/:id/editor" element={<Editor />} />
             <Route path="/executions" element={<Executions />} />
+            <Route path="/models" element={<Models />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route
               path="*"
@@ -270,8 +276,8 @@ function Roadmap() {
             [
               "04",
               "AI & knowledge",
-              "Planned",
-              "Provider registry, LLM nodes, document pipelines, pgvector retrieval and agents require further implementation.",
+              "In progress",
+              "Model registry, connection testing and text playground available. Streaming, workflow LLM nodes, knowledge pipelines and agents remain planned.",
             ],
             [
               "05",

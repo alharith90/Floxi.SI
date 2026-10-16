@@ -53,6 +53,7 @@ test.afterAll(async () => {
   await db.run.deleteMany({ where: { id: { in: rids } } });
   await db.version.deleteMany({ where: { workflowId: { in: ids } } });
   await db.workflow.deleteMany({ where: { id: { in: ids } } });
+  await db.modelEndpoint.deleteMany({ where: { workspaceId: wid } });
   await db.audit.deleteMany({ where: { workspaceId: wid } });
   await db.user.delete({ where: { id: uid } });
   await db.workspace.delete({ where: { id: wid } });
@@ -367,4 +368,51 @@ test("recovers from a failed refresh without exposing a stale editable draft", a
   await expect(
     page.getByRole("textbox", { name: "Workflow name" }),
   ).toHaveValue("Navigation protected");
+});
+
+test("administrator registers a model and sees persisted connection errors", async ({
+  page,
+}) => {
+  await page.goto("/models");
+  await expect(
+    page.getByRole("heading", { name: "Models", exact: true }),
+  ).toBeVisible();
+  await page.getByLabel("Name", { exact: true }).fill("Browser model endpoint");
+  await page.getByLabel("Base URL").fill("https://api.openai.com/v1");
+  await page.getByLabel("Chat model", { exact: true }).fill("fixture-model");
+  await page
+    .getByLabel("Credential environment variable (optional)")
+    .fill("FLOXI_MODEL_KEY_BROWSER_MISSING");
+  await page.getByRole("button", { name: "Add endpoint", exact: true }).click();
+  await expect(
+    page.getByRole("heading", { name: "Browser model endpoint" }),
+  ).toBeVisible();
+  await page.reload();
+  await expect(
+    page.getByRole("heading", { name: "Browser model endpoint" }),
+  ).toBeVisible();
+  await page
+    .getByRole("button", { name: "Test connection", exact: true })
+    .click();
+  await expect(
+    page.getByText(
+      "The configured model credential binding is not available on the server.",
+      { exact: true },
+    ),
+  ).toBeVisible();
+  await page
+    .getByLabel("Endpoint", { exact: true })
+    .selectOption({ label: "Browser model endpoint" });
+  await page.getByLabel("Prompt", { exact: true }).fill("Hello");
+  await page
+    .getByRole("button", { name: "Generate text", exact: true })
+    .click();
+  await expect(page.locator(".error-note")).toContainText(
+    "The configured model credential binding is not available on the server.",
+  );
+  await page.screenshot({
+    path: "docs/screenshots/models.png",
+    fullPage: true,
+    animations: "disabled",
+  });
 });

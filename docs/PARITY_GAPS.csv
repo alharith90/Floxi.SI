@@ -25,8 +25,8 @@ Workflow templates,P1,Not Started,No connected implementation in 0.1,,"Search, c
 Credentials,P0,Not Started,No connected implementation in 0.1,,"Provider-based, encrypted at rest, RBAC and test connection"
 Run from node,P1,Not Started,No connected implementation in 0.1,,Debug with fixtures and safe handling of side effects
 Item-level execution,P1,Not Started,No connected implementation in 0.1,,Data batch and per-item failure semantics documented
-OpenAI-compatible LLM,P0,Not Started,No connected implementation in 0.1,,"Base URL + model name, test, streaming, health"
-Multi-provider registry,P0,Not Started,No connected implementation in 0.1,,Multiple endpoints / per-workspace authorization
+OpenAI-compatible LLM,P0,In Progress,Chat Completions and Responses text playground; live inference validation and streaming pending,tests/models.test.ts; tests/e2e/studio.spec.ts,"Base URL + model name, test, streaming, health"
+Multi-provider registry,P0,In Progress,Workspace-scoped endpoint create/list and admin connection testing; editing/deletion and capability discovery pending,tests/models.test.ts; tests/e2e/studio.spec.ts,Multiple endpoints / per-workspace authorization
 Chatflow,P0,Not Started,No connected implementation in 0.1,,"Session, history, typed user variables, streamed answer"
 LLM node,P0,Not Started,No connected implementation in 0.1,,"System/user templates, temperature, max tokens, structured output"
 Prompt Studio,P1,Not Started,No connected implementation in 0.1,,"Versioned prompt templates, variables, side-by-side test, eval"
@@ -51,10 +51,10 @@ Structured response,P0,Not Started,No connected implementation in 0.1,,"JSON Sch
 Safety and guardrails,P0,Not Started,No connected implementation in 0.1,,"Input/output policy hooks, prompt injection defenses, PII masking"
 Human-in-the-loop,P1,Not Started,No connected implementation in 0.1,,"Approval actions, escalation, immutable decision trace"
 AI evaluation,P1,Not Started,No connected implementation in 0.1,,"Golden sets, scoring, regression detection, prompt/model comparisons"
-AI observability,P0,Not Started,No connected implementation in 0.1,,"Token counts, latency, usage, failures, trace IDs"
+AI observability,P0,In Progress,Completion token usage displayed and successful completion audit metadata stored; tracing and aggregate usage pending,tests/models.test.ts; tests/e2e/studio.spec.ts,"Token counts, latency, usage, failures, trace IDs"
 App publishing,P1,Not Started,No connected implementation in 0.1,,"Versioned HTTP API, chat widget, service key, quotas"
 AI application templates,P1,Not Started,No connected implementation in 0.1,,"Create chat assistant, RAG bot, extraction flow, agent tool flow"
-AI credential privacy,P0,Not Started,No connected implementation in 0.1,,"Secret references, no user-visible raw keys"
+AI credential privacy,P0,In Progress,Server environment bindings only; no raw credentials accepted or returned; vault and rotation pending,tests/models.test.ts; tests/e2e/studio.spec.ts,"Secret references, no user-visible raw keys"
 Studio CRUD/search/archive,P0,Tested,Durable create/list/search/reload/duplicate/archive/restore,tests/e2e/studio.spec.ts,
 Canvas and workbench,P0,In Progress,"Five connectable node families; autosave, conflicts, undo/redo and real data mapping. Full keyboard/multi-selection/clipboard/viewport parity pending",apps/web/src/editor,
 Local authentication and workspace RBAC,P0,Tested,Bootstrap and local login sessions with server-side access checks; enterprise SSO/member management still pending,tests/integration.test.ts,

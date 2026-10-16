@@ -1980,3 +1980,19 @@ pre {
   font-size: 13px;
   color: var(--muted);
 }
+
+.model-form {
+  margin-top: 24px;
+  max-width: 800px;
+}
+.model-form form {
+  display: grid;
+  gap: 16px;
+}
+.model-form label {
+  display: grid;
+  gap: 6px;
+}
+.model-form textarea {
+  min-height: 100px;
+}

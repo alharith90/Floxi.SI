@@ -68,8 +68,17 @@ Prisma 6's experimental WASM migration adapter cannot deserialize PostgreSQL's c
 - HttpOnly, SameSite-strict database sessions; scrypt password hashes; request verification headers; strict origin checks; per-process login throttling.
 - Server-side workspace scoping and viewer/editor/publisher/operator/admin role checks. Only bootstrap-admin management is exposed; member/role administration and OIDC/SAML are not implemented.
 - Immutable graph snapshots and version foreign keys; atomic step/result/event checkpoints using `FOR UPDATE SKIP LOCKED`; manual request deduplication when an idempotency key is supplied.
-- Only pure local node handlers are available. No arbitrary code execution, external HTTP requests, secret storage, or model calls are exposed.
+- Only pure local node handlers are available. No arbitrary code execution or general HTTP workflow nodes are exposed. Model calls are available separately through the role-gated text playground; keys use server environment bindings.
 - Local database user `agent` is an administrative development role. Production requires least-privilege DB credentials, HTTPS, payload-at-rest encryption, distributed throttling, retention policies, SSO, monitoring, resource/load review, and tested backup/restore.
 - Studio is capped at the most recent 100 matching workflows; execution history is capped at 50. Full pagination, canvas clipboard/multi-selection, viewport persistence, version rollback, single-step execution, and collaborative editing are not complete.
 
 [Upstream audit](docs/upstream-audit.md) · [License review](docs/LICENSE_REVIEW.md) · [Release notes](docs/RELEASE_NOTES.md) · [Screenshots](docs/screenshots) · [Machine-readable gaps](docs/PARITY_GAPS.csv)
+
+
+## Model registry and text playground
+
+Open **Models** as an administrator to register an OpenAI-compatible base URL (including `/v1` if required), exact model ID, API style and optional credential binding such as `FLOXI_MODEL_KEY_LOCAL`. Set that variable on the API server; never paste an API key into endpoint metadata. `https://api.openai.com` is approved by default. For local inference, set `MODEL_ALLOWED_ORIGINS=http://localhost:8000` (comma-separated exact origins supported) and restart the API. The provider must be reachable from the API host.
+
+**Test connection** checks the provider's `/models` response and persists reachability or a sanitized error. It does not certify that a configured model supports inference. Editors, publishers, operators and administrators can use **Generate text** to test the actual model. Requests are bounded to 30 seconds, 4 MiB responses and 4096 requested output tokens. The playground does not persist prompt/answer text; successful completion audit records contain IDs only. The provider may apply its own retention policies.
+
+This is a bounded milestone 5 slice. Automated provider checks use a local HTTP protocol fixture, not an AI model. Live-model compatibility, streaming, chat history, workflow LLM nodes, RAG/citations, agent tools, endpoint editing/deletion, quotas and distributed concurrency limits remain open. Embeddings have transport validation only. The allowlist is an operator trust boundary: approve only controlled origins and network routes.
