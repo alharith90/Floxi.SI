@@ -1,0 +1,49 @@
+name: Verify Floxi
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          POSTGRES_USER: floxi
+          POSTGRES_PASSWORD: ci-only-password
+          POSTGRES_DB: floxi_ci
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U floxi -d floxi_ci"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://floxi:ci-only-password@localhost:5432/floxi_ci
+      WEB_ORIGIN: http://localhost:5173
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm db:generate && pnpm db:migrate
+      - run: pnpm typecheck && pnpm lint && pnpm build
+      - run: |
+          pnpm dev:api > /tmp/floxi-api.log 2>&1 &
+          pnpm dev:web > /tmp/floxi-web.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://localhost:3001/api/auth/status && curl -fsS http://localhost:5173/ > /dev/null; then break; fi
+            sleep 1
+          done
+          pnpm test
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: CHROMIUM_PATH="$(find "$HOME/.cache/ms-playwright" -path '*/chrome-linux64/chrome' -type f | head -n 1)" pnpm test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-evidence
+          path: |
+            docs/*RESULTS.json
+            docs/screenshots/
+            test-results/

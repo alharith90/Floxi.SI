@@ -1,0 +1,18 @@
+{
+  "n8n": {
+    "repository": "https://github.com/n8n-io/n8n",
+    "commit": "447fc866bb0a841decfa5e8a29fba06057bfc5bc",
+    "licenseFile": "LICENSE.md",
+    "licenseSha256": "d2f621f59aa4c10eab79b6333e59d9d3d5b53307dcfd16dbd75e40e679e84965",
+    "trackedFileCount": 31657,
+    "reviewScope": "targeted; not exhaustive; no upstream code incorporated"
+  },
+  "dify": {
+    "repository": "https://github.com/langgenius/dify",
+    "commit": "69e9ca4e01ce05da52255939330fbcec454dce23",
+    "licenseFile": "LICENSE",
+    "licenseSha256": "232cf91474932d5110ed304e53b6b742a58463857c571fae803fdf2ac36d7bb3",
+    "trackedFileCount": 14160,
+    "reviewScope": "targeted; not exhaustive; no upstream code incorporated"
+  }
+}

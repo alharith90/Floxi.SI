@@ -1,0 +1,14 @@
+{
+  "name": "@floxi/ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./Modal": "./src/Modal.tsx",
+    "./ErrorNote": "./src/ErrorNote.tsx"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "lucide-react": "^0.468.0"
+  }
+}

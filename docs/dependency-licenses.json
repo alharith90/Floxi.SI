@@ -1,0 +1,5730 @@
+{
+  "MIT": [
+    {
+      "name": "@babel/code-frame",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+code-frame@7.29.7/node_modules/@babel/code-frame"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-code-frame",
+      "description": "Generate errors that contain a code frame that point to source locations."
+    },
+    {
+      "name": "@babel/compat-data",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+compat-data@7.29.7/node_modules/@babel/compat-data"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://github.com/babel/babel#readme",
+      "description": "The compat-data to determine required Babel plugins"
+    },
+    {
+      "name": "@babel/core",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+core@7.29.7_supports-color@8.1.1/node_modules/@babel/core"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-core",
+      "description": "Babel compiler core."
+    },
+    {
+      "name": "@babel/generator",
+      "versions": [
+        "7.29.8"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+generator@7.29.8/node_modules/@babel/generator"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-generator",
+      "description": "Turns an AST into code."
+    },
+    {
+      "name": "@babel/helper-compilation-targets",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-compilation-targets@7.29.7/node_modules/@babel/helper-compilation-targets"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://github.com/babel/babel#readme",
+      "description": "Helper functions on Babel compilation targets"
+    },
+    {
+      "name": "@babel/helper-globals",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-globals@7.29.7/node_modules/@babel/helper-globals"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://github.com/babel/babel#readme",
+      "description": "A collection of JavaScript globals for Babel internal usage"
+    },
+    {
+      "name": "@babel/helper-module-imports",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-module-imports@7.29.7_supports-color@8.1.1/node_modules/@babel/helper-module-imports"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-helper-module-imports",
+      "description": "Babel helper functions for inserting module loads"
+    },
+    {
+      "name": "@babel/helper-module-transforms",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-module-transforms@7.29.7_@babel+core@7.29.7_supports-color@8.1.1__supports-color@8.1.1/node_modules/@babel/helper-module-transforms"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-helper-module-transforms",
+      "description": "Babel helper functions for implementing ES6 module transformations"
+    },
+    {
+      "name": "@babel/helper-plugin-utils",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-plugin-utils@7.29.7/node_modules/@babel/helper-plugin-utils"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-helper-plugin-utils",
+      "description": "General utilities for plugins to use"
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-string-parser@7.29.7/node_modules/@babel/helper-string-parser"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-helper-string-parser",
+      "description": "A utility package to parse strings"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-validator-identifier@7.29.7/node_modules/@babel/helper-validator-identifier"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://github.com/babel/babel#readme",
+      "description": "Validate identifier/keywords name"
+    },
+    {
+      "name": "@babel/helper-validator-option",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helper-validator-option@7.29.7/node_modules/@babel/helper-validator-option"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://github.com/babel/babel#readme",
+      "description": "Validate plugin/preset options"
+    },
+    {
+      "name": "@babel/helpers",
+      "versions": [
+        "7.29.10"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+helpers@7.29.10/node_modules/@babel/helpers"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-helpers",
+      "description": "Collection of helper functions used by Babel transforms."
+    },
+    {
+      "name": "@babel/parser",
+      "versions": [
+        "7.29.9"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+parser@7.29.9/node_modules/@babel/parser"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-parser",
+      "description": "A JavaScript parser"
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-self",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+plugin-transform-react-jsx-self@7.29.7_@babel+core@7.29.7_supports-color@8.1.1_/node_modules/@babel/plugin-transform-react-jsx-self"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-plugin-transform-react-jsx-self",
+      "description": "Add a __self prop to all JSX Elements"
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-source",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+plugin-transform-react-jsx-source@7.29.7_@babel+core@7.29.7_supports-color@8.1.1_/node_modules/@babel/plugin-transform-react-jsx-source"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-plugin-transform-react-jsx-source",
+      "description": "Add a __source prop to all JSX Elements"
+    },
+    {
+      "name": "@babel/template",
+      "versions": [
+        "7.29.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+template@7.29.7/node_modules/@babel/template"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-template",
+      "description": "Generate an AST from a string template."
+    },
+    {
+      "name": "@babel/traverse",
+      "versions": [
+        "7.29.10"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+traverse@7.29.10_supports-color@8.1.1/node_modules/@babel/traverse"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-traverse",
+      "description": "The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes"
+    },
+    {
+      "name": "@babel/types",
+      "versions": [
+        "7.29.8"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@babel+types@7.29.8/node_modules/@babel/types"
+      ],
+      "license": "MIT",
+      "author": "The Babel Team",
+      "homepage": "https://babel.dev/docs/en/next/babel-types",
+      "description": "Babel Types is a Lodash-esque utility library for AST nodes"
+    },
+    {
+      "name": "@borewit/text-codec",
+      "versions": [
+        "0.2.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@borewit+text-codec@0.2.2/node_modules/@borewit/text-codec"
+      ],
+      "license": "MIT",
+      "author": "Borewit",
+      "homepage": "https://github.com/Borewit/text-codec#readme",
+      "description": "Text Decoder"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "versions": [
+        "0.27.7",
+        "0.28.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@esbuild+linux-x64@0.27.7/node_modules/@esbuild/linux-x64",
+        "/workspace/Floxi.SI/node_modules/.pnpm/@esbuild+linux-x64@0.28.2/node_modules/@esbuild/linux-x64"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/evanw/esbuild#readme",
+      "description": "The Linux 64-bit binary for esbuild, a JavaScript bundler."
+    },
+    {
+      "name": "@eslint-community/eslint-utils",
+      "versions": [
+        "4.10.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint-community+eslint-utils@4.10.1_eslint@9.39.5_jiti@2.7.0_supports-color@8.1.1_/node_modules/@eslint-community/eslint-utils"
+      ],
+      "license": "MIT",
+      "author": "Toru Nagashima",
+      "homepage": "https://github.com/eslint-community/eslint-utils#readme",
+      "description": "Utilities for ESLint plugins."
+    },
+    {
+      "name": "@eslint-community/regexpp",
+      "versions": [
+        "4.12.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint-community+regexpp@4.12.2/node_modules/@eslint-community/regexpp"
+      ],
+      "license": "MIT",
+      "author": "Toru Nagashima",
+      "homepage": "https://github.com/eslint-community/regexpp#readme",
+      "description": "Regular expression parser for ECMAScript."
+    },
+    {
+      "name": "@eslint/eslintrc",
+      "versions": [
+        "3.3.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint+eslintrc@3.3.7_supports-color@8.1.1/node_modules/@eslint/eslintrc"
+      ],
+      "license": "MIT",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/eslint/eslintrc#readme",
+      "description": "The legacy ESLintRC config file format for ESLint"
+    },
+    {
+      "name": "@eslint/js",
+      "versions": [
+        "9.39.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint+js@9.39.5/node_modules/@eslint/js"
+      ],
+      "license": "MIT",
+      "homepage": "https://eslint.org",
+      "description": "ESLint JavaScript language implementation"
+    },
+    {
+      "name": "@hookform/resolvers",
+      "versions": [
+        "5.9.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@hookform+resolvers@5.9.1_@standard-schema+spec@1.1.0_effect@3.21.0_react-hook-form@7.9_985fe7ef8c8cace40d81bb1e99629f4b/node_modules/@hookform/resolvers"
+      ],
+      "license": "MIT",
+      "author": "bluebill1049",
+      "homepage": "https://react-hook-form.com",
+      "description": "React Hook Form validation resolvers: Yup, Joi, Superstruct, Zod, Vest, Class Validator, io-ts, Nope, computed-types, TypeBox, arktype, Typanion, Effect-TS and VineJS"
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "versions": [
+        "0.3.13"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@jridgewell+gen-mapping@0.3.13/node_modules/@jridgewell/gen-mapping"
+      ],
+      "license": "MIT",
+      "author": "Justin Ridgewell",
+      "homepage": "https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping",
+      "description": "Generate source maps"
+    },
+    {
+      "name": "@jridgewell/remapping",
+      "versions": [
+        "2.3.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@jridgewell+remapping@2.3.5/node_modules/@jridgewell/remapping"
+      ],
+      "license": "MIT",
+      "author": "Justin Ridgewell",
+      "homepage": "https://github.com/jridgewell/sourcemaps/tree/main/packages/remapping",
+      "description": "Remap sequential sourcemaps through transformations to point at the original source code"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "versions": [
+        "3.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@jridgewell+resolve-uri@3.1.2/node_modules/@jridgewell/resolve-uri"
+      ],
+      "license": "MIT",
+      "author": "Justin Ridgewell",
+      "homepage": "https://github.com/jridgewell/resolve-uri#readme",
+      "description": "Resolve a URI relative to an optional base URI"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "versions": [
+        "1.6.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@jridgewell+sourcemap-codec@1.6.0/node_modules/@jridgewell/sourcemap-codec"
+      ],
+      "license": "MIT",
+      "author": "Justin Ridgewell",
+      "homepage": "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+      "description": "Encode/decode sourcemap mappings"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "versions": [
+        "0.3.31"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@jridgewell+trace-mapping@0.3.31/node_modules/@jridgewell/trace-mapping"
+      ],
+      "license": "MIT",
+      "author": "Justin Ridgewell",
+      "homepage": "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+      "description": "Trace the original position through a source map"
+    },
+    {
+      "name": "@lukeed/csprng",
+      "versions": [
+        "1.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@lukeed+csprng@1.1.0/node_modules/@lukeed/csprng"
+      ],
+      "license": "MIT",
+      "author": "Luke Edwards",
+      "homepage": "https://github.com/lukeed/csprng#readme",
+      "description": "An alias package for `crypto.randomBytes` in Node.js and/or browsers"
+    },
+    {
+      "name": "@microsoft/tsdoc",
+      "versions": [
+        "0.16.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@microsoft+tsdoc@0.16.0/node_modules/@microsoft/tsdoc"
+      ],
+      "license": "MIT",
+      "homepage": "https://tsdoc.org/",
+      "description": "A parser for the TypeScript doc comment syntax"
+    },
+    {
+      "name": "@napi-rs/lzma-linux-x64-gnu",
+      "versions": [
+        "1.5.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@napi-rs+lzma-linux-x64-gnu@1.5.1/node_modules/@napi-rs/lzma-linux-x64-gnu"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/Brooooooklyn/lzma#readme",
+      "description": "lzma / lzma2 / xz compression for Node.js and the browser, backed by pure-Rust lzma-rust2 via https://napi.rs"
+    },
+    {
+      "name": "@nestjs/common",
+      "versions": [
+        "11.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@nestjs+common@11.2.7_reflect-metadata@0.2.2_rxjs@7.8.2_supports-color@8.1.1/node_modules/@nestjs/common"
+      ],
+      "license": "MIT",
+      "author": "Kamil Mysliwiec",
+      "homepage": "https://nestjs.com",
+      "description": "Nest - modern, fast, powerful node.js web framework (@common)"
+    },
+    {
+      "name": "@nestjs/core",
+      "versions": [
+        "11.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@nestjs+core@11.2.7_@nestjs+common@11.2.7_reflect-metadata@0.2.2_rxjs@7.8.2_supports-co_a6aeaf4f987ee681be8fff151a3d403f/node_modules/@nestjs/core"
+      ],
+      "license": "MIT",
+      "author": "Kamil Mysliwiec",
+      "homepage": "https://nestjs.com",
+      "description": "Nest - modern, fast, powerful node.js web framework (@core)"
+    },
+    {
+      "name": "@nestjs/mapped-types",
+      "versions": [
+        "2.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@nestjs+mapped-types@2.1.1_@nestjs+common@11.2.7_reflect-metadata@0.2.2_rxjs@7.8.2_supp_0ea34ad79ccc941cc66647f0dd1be98a/node_modules/@nestjs/mapped-types"
+      ],
+      "license": "MIT",
+      "author": "Kamil Mysliwiec",
+      "homepage": "https://github.com/nestjs/mapped-types#readme",
+      "description": "Nest - modern, fast, powerful node.js web framework (@mapped-types)"
+    },
+    {
+      "name": "@nestjs/platform-express",
+      "versions": [
+        "11.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@nestjs+platform-express@11.2.7_@nestjs+common@11.2.7_reflect-metadata@0.2.2_rxjs@7.8.2_930f09893f3181a229dfb26a4ec7bed9/node_modules/@nestjs/platform-express"
+      ],
+      "license": "MIT",
+      "author": "Kamil Mysliwiec",
+      "homepage": "https://nestjs.com",
+      "description": "Nest - modern, fast, powerful node.js web framework (@platform-express)"
+    },
+    {
+      "name": "@nestjs/swagger",
+      "versions": [
+        "11.4.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@nestjs+swagger@11.4.7_@nestjs+common@11.2.7_reflect-metadata@0.2.2_rxjs@7.8.2_supports_427b4fe7ec5d233cba51e2c78ac34d43/node_modules/@nestjs/swagger"
+      ],
+      "license": "MIT",
+      "author": "Kamil Mysliwiec",
+      "homepage": "https://github.com/nestjs/swagger#readme",
+      "description": "Nest - modern, fast, powerful node.js web framework (@swagger)"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "versions": [
+        "1.0.0-rc.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@rolldown+pluginutils@1.0.0-rc.3/node_modules/@rolldown/pluginutils"
+      ],
+      "license": "MIT",
+      "homepage": "https://rolldown.rs/"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "versions": [
+        "4.64.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@rollup+rollup-linux-x64-gnu@4.64.7/node_modules/@rollup/rollup-linux-x64-gnu"
+      ],
+      "license": "MIT",
+      "author": "Lukas Taegert-Atkinson",
+      "homepage": "https://rollupjs.org/",
+      "description": "Native bindings for Rollup"
+    },
+    {
+      "name": "@socket.io/component-emitter",
+      "versions": [
+        "3.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@socket.io+component-emitter@3.1.2/node_modules/@socket.io/component-emitter"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/socketio/emitter#readme",
+      "description": "Event emitter"
+    },
+    {
+      "name": "@standard-schema/spec",
+      "versions": [
+        "1.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@standard-schema+spec@1.1.0/node_modules/@standard-schema/spec"
+      ],
+      "license": "MIT",
+      "author": "Colin McDonnell",
+      "homepage": "https://standardschema.dev",
+      "description": "A family of specs for interoperable TypeScript"
+    },
+    {
+      "name": "@standard-schema/utils",
+      "versions": [
+        "0.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@standard-schema+utils@0.3.0/node_modules/@standard-schema/utils"
+      ],
+      "license": "MIT",
+      "author": "Fabian Hiller",
+      "homepage": "https://github.com/standard-schema/standard-schema#readme",
+      "description": "The official runtime utils for Standard Schema"
+    },
+    {
+      "name": "@tailwindcss/node",
+      "versions": [
+        "4.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tailwindcss+node@4.3.3/node_modules/@tailwindcss/node"
+      ],
+      "license": "MIT",
+      "homepage": "https://tailwindcss.com",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces."
+    },
+    {
+      "name": "@tailwindcss/oxide",
+      "versions": [
+        "4.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tailwindcss+oxide@4.3.3/node_modules/@tailwindcss/oxide"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/tailwindlabs/tailwindcss#readme"
+    },
+    {
+      "name": "@tailwindcss/oxide-linux-x64-gnu",
+      "versions": [
+        "4.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tailwindcss+oxide-linux-x64-gnu@4.3.3/node_modules/@tailwindcss/oxide-linux-x64-gnu"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/tailwindlabs/tailwindcss#readme"
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "versions": [
+        "4.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tailwindcss+vite@4.3.3_vite@7.3.7_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_/node_modules/@tailwindcss/vite"
+      ],
+      "license": "MIT",
+      "homepage": "https://tailwindcss.com",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces."
+    },
+    {
+      "name": "@tanstack/query-core",
+      "versions": [
+        "5.104.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tanstack+query-core@5.104.2/node_modules/@tanstack/query-core"
+      ],
+      "license": "MIT",
+      "author": "tannerlinsley",
+      "homepage": "https://tanstack.com/query",
+      "description": "The framework agnostic core that powers TanStack Query"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "versions": [
+        "5.104.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tanstack+react-query@5.104.2_react@19.3.1/node_modules/@tanstack/react-query"
+      ],
+      "license": "MIT",
+      "author": "tannerlinsley",
+      "homepage": "https://tanstack.com/query",
+      "description": "Hooks for managing, caching and syncing asynchronous and remote data in React"
+    },
+    {
+      "name": "@tokenizer/inflate",
+      "versions": [
+        "0.4.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tokenizer+inflate@0.4.1_supports-color@8.1.1/node_modules/@tokenizer/inflate"
+      ],
+      "license": "MIT",
+      "author": "Borewit",
+      "homepage": "https://github.com/Borewit/tokenizer-inflate#readme",
+      "description": "Tokenized zip support"
+    },
+    {
+      "name": "@tokenizer/token",
+      "versions": [
+        "0.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@tokenizer+token@0.3.0/node_modules/@tokenizer/token"
+      ],
+      "license": "MIT",
+      "author": "Borewit",
+      "homepage": "https://github.com/Borewit/tokenizer-token#readme",
+      "description": "TypeScript definition for strtok3 token"
+    },
+    {
+      "name": "@types/babel__core",
+      "versions": [
+        "7.20.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+babel__core@7.20.5/node_modules/@types/babel__core"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "description": "TypeScript definitions for @babel/core"
+    },
+    {
+      "name": "@types/babel__generator",
+      "versions": [
+        "7.27.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+babel__generator@7.27.0/node_modules/@types/babel__generator"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__generator",
+      "description": "TypeScript definitions for @babel/generator"
+    },
+    {
+      "name": "@types/babel__template",
+      "versions": [
+        "7.4.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+babel__template@7.4.4/node_modules/@types/babel__template"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__template",
+      "description": "TypeScript definitions for @babel/template"
+    },
+    {
+      "name": "@types/babel__traverse",
+      "versions": [
+        "7.28.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+babel__traverse@7.28.0/node_modules/@types/babel__traverse"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__traverse",
+      "description": "TypeScript definitions for @babel/traverse"
+    },
+    {
+      "name": "@types/body-parser",
+      "versions": [
+        "1.19.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+body-parser@1.19.6/node_modules/@types/body-parser"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/body-parser",
+      "description": "TypeScript definitions for body-parser"
+    },
+    {
+      "name": "@types/chai",
+      "versions": [
+        "5.2.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+chai@5.2.3/node_modules/@types/chai"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/chai",
+      "description": "TypeScript definitions for chai"
+    },
+    {
+      "name": "@types/connect",
+      "versions": [
+        "3.4.38"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+connect@3.4.38/node_modules/@types/connect"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/connect",
+      "description": "TypeScript definitions for connect"
+    },
+    {
+      "name": "@types/cookie-parser",
+      "versions": [
+        "1.4.10"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+cookie-parser@1.4.10_@types+express@5.0.6/node_modules/@types/cookie-parser"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cookie-parser",
+      "description": "TypeScript definitions for cookie-parser"
+    },
+    {
+      "name": "@types/cors",
+      "versions": [
+        "2.8.19"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+cors@2.8.19/node_modules/@types/cors"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cors",
+      "description": "TypeScript definitions for cors"
+    },
+    {
+      "name": "@types/d3-color",
+      "versions": [
+        "3.1.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+d3-color@3.1.3/node_modules/@types/d3-color"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-color",
+      "description": "TypeScript definitions for d3-color"
+    },
+    {
+      "name": "@types/d3-drag",
+      "versions": [
+        "3.0.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+d3-drag@3.0.7/node_modules/@types/d3-drag"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-drag",
+      "description": "TypeScript definitions for d3-drag"
+    },
+    {
+      "name": "@types/d3-interpolate",
+      "versions": [
+        "3.0.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+d3-interpolate@3.0.4/node_modules/@types/d3-interpolate"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-interpolate",
+      "description": "TypeScript definitions for d3-interpolate"
+    },
+    {
+      "name": "@types/d3-selection",
+      "versions": [
+        "3.0.12"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+d3-selection@3.0.12/node_modules/@types/d3-selection"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-selection",
+      "description": "TypeScript definitions for d3-selection"
+    },
+    {
+      "name": "@types/d3-transition",
+      "versions": [
+        "3.0.9"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+d3-transition@3.0.9/node_modules/@types/d3-transition"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-transition",
+      "description": "TypeScript definitions for d3-transition"
+    },
+    {
+      "name": "@types/d3-zoom",
+      "versions": [
+        "3.0.9"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+d3-zoom@3.0.9/node_modules/@types/d3-zoom"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/d3-zoom",
+      "description": "TypeScript definitions for d3-zoom"
+    },
+    {
+      "name": "@types/deep-eql",
+      "versions": [
+        "4.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+deep-eql@4.0.2/node_modules/@types/deep-eql"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/deep-eql",
+      "description": "TypeScript definitions for deep-eql"
+    },
+    {
+      "name": "@types/estree",
+      "versions": [
+        "1.0.9"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+estree@1.0.9/node_modules/@types/estree"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/estree",
+      "description": "TypeScript definitions for estree"
+    },
+    {
+      "name": "@types/express",
+      "versions": [
+        "5.0.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+express@5.0.6/node_modules/@types/express"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/express",
+      "description": "TypeScript definitions for express"
+    },
+    {
+      "name": "@types/express-serve-static-core",
+      "versions": [
+        "5.1.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+express-serve-static-core@5.1.3/node_modules/@types/express-serve-static-core"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/express-serve-static-core",
+      "description": "TypeScript definitions for express-serve-static-core"
+    },
+    {
+      "name": "@types/http-errors",
+      "versions": [
+        "2.0.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+http-errors@2.0.5/node_modules/@types/http-errors"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/http-errors",
+      "description": "TypeScript definitions for http-errors"
+    },
+    {
+      "name": "@types/json-schema",
+      "versions": [
+        "7.0.15"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+json-schema@7.0.15/node_modules/@types/json-schema"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/json-schema",
+      "description": "TypeScript definitions for json-schema"
+    },
+    {
+      "name": "@types/node",
+      "versions": [
+        "24.19.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+node@24.19.2/node_modules/@types/node"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
+      "description": "TypeScript definitions for node"
+    },
+    {
+      "name": "@types/pg",
+      "versions": [
+        "8.23.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+pg@8.23.1/node_modules/@types/pg"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pg",
+      "description": "TypeScript definitions for pg"
+    },
+    {
+      "name": "@types/qs",
+      "versions": [
+        "6.15.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+qs@6.15.1/node_modules/@types/qs"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/qs",
+      "description": "TypeScript definitions for qs"
+    },
+    {
+      "name": "@types/range-parser",
+      "versions": [
+        "1.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+range-parser@1.2.7/node_modules/@types/range-parser"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/range-parser",
+      "description": "TypeScript definitions for range-parser"
+    },
+    {
+      "name": "@types/react",
+      "versions": [
+        "19.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+react@19.3.0/node_modules/@types/react"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react",
+      "description": "TypeScript definitions for react"
+    },
+    {
+      "name": "@types/react-dom",
+      "versions": [
+        "19.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+react-dom@19.3.0_@types+react@19.3.0/node_modules/@types/react-dom"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom",
+      "description": "TypeScript definitions for react-dom"
+    },
+    {
+      "name": "@types/send",
+      "versions": [
+        "1.2.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+send@1.2.1/node_modules/@types/send"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/send",
+      "description": "TypeScript definitions for send"
+    },
+    {
+      "name": "@types/serve-static",
+      "versions": [
+        "2.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+serve-static@2.2.0/node_modules/@types/serve-static"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/serve-static",
+      "description": "TypeScript definitions for serve-static"
+    },
+    {
+      "name": "@types/ws",
+      "versions": [
+        "8.18.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@types+ws@8.18.2/node_modules/@types/ws"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ws",
+      "description": "TypeScript definitions for ws"
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.71.2_@typescript-eslint+parser@8.71.2_eslint@9.39.5__5e4140f1015b3964072c3243a6593d3d/node_modules/@typescript-eslint/eslint-plugin"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io/packages/eslint-plugin",
+      "description": "TypeScript plugin for ESLint"
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+parser@8.71.2_eslint@9.39.5_jiti@2.7.0_supports-color@8.1.1__supports-color@8.1.1_typescript@5.9.3/node_modules/@typescript-eslint/parser"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io/packages/parser",
+      "description": "An ESLint custom parser which leverages TypeScript ESTree"
+    },
+    {
+      "name": "@typescript-eslint/project-service",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+project-service@8.71.2_supports-color@8.1.1_typescript@5.9.3/node_modules/@typescript-eslint/project-service"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io",
+      "description": "Standalone TypeScript project service wrapper for linting."
+    },
+    {
+      "name": "@typescript-eslint/scope-manager",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+scope-manager@8.71.2/node_modules/@typescript-eslint/scope-manager"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io/packages/scope-manager",
+      "description": "TypeScript scope analyser for ESLint"
+    },
+    {
+      "name": "@typescript-eslint/tsconfig-utils",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+tsconfig-utils@8.71.2_typescript@5.9.3/node_modules/@typescript-eslint/tsconfig-utils"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io",
+      "description": "Utilities for collecting TSConfigs for linting scenarios."
+    },
+    {
+      "name": "@typescript-eslint/type-utils",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+type-utils@8.71.2_eslint@9.39.5_jiti@2.7.0_supports-color@8.1.1__sup_8e6a48016665ae6734e47212299e67fa/node_modules/@typescript-eslint/type-utils"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io",
+      "description": "Type utilities for working with TypeScript + ESLint together"
+    },
+    {
+      "name": "@typescript-eslint/types",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+types@8.71.2/node_modules/@typescript-eslint/types"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io",
+      "description": "Types for the TypeScript-ESTree AST spec"
+    },
+    {
+      "name": "@typescript-eslint/typescript-estree",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+typescript-estree@8.71.2_supports-color@8.1.1_typescript@5.9.3/node_modules/@typescript-eslint/typescript-estree"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io/packages/typescript-estree",
+      "description": "A parser that converts TypeScript source code into an ESTree compatible form"
+    },
+    {
+      "name": "@typescript-eslint/utils",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+utils@8.71.2_eslint@9.39.5_jiti@2.7.0_supports-color@8.1.1__supports-color@8.1.1_typescript@5.9.3/node_modules/@typescript-eslint/utils"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io/packages/utils",
+      "description": "Utilities for working with TypeScript + ESLint together"
+    },
+    {
+      "name": "@typescript-eslint/visitor-keys",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@typescript-eslint+visitor-keys@8.71.2/node_modules/@typescript-eslint/visitor-keys"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io",
+      "description": "Visitor keys used to help traverse the TypeScript-ESTree AST"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "versions": [
+        "5.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitejs+plugin-react@5.2.0_supports-color@8.1.1_vite@7.3.7_@types+node@24.19.2_jiti@2.7_3b44c17668c89740a8c83f3798f0525b/node_modules/@vitejs/plugin-react"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#readme",
+      "description": "The default Vite plugin for React projects"
+    },
+    {
+      "name": "@vitest/expect",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitest+expect@3.2.7/node_modules/@vitest/expect"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vitest-dev/vitest/tree/main/packages/expect#readme",
+      "description": "Jest's expect matchers as a Chai plugin"
+    },
+    {
+      "name": "@vitest/mocker",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitest+mocker@3.2.7_vite@7.3.7_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15_/node_modules/@vitest/mocker"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vitest-dev/vitest/tree/main/packages/mocker#readme",
+      "description": "Vitest module mocker implementation"
+    },
+    {
+      "name": "@vitest/pretty-format",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitest+pretty-format@3.2.7/node_modules/@vitest/pretty-format"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vitest-dev/vitest/tree/main/packages/utils#readme",
+      "description": "Fork of pretty-format with support for ESM"
+    },
+    {
+      "name": "@vitest/runner",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitest+runner@3.2.7/node_modules/@vitest/runner"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vitest-dev/vitest/tree/main/packages/runner#readme",
+      "description": "Vitest test runner"
+    },
+    {
+      "name": "@vitest/snapshot",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitest+snapshot@3.2.7/node_modules/@vitest/snapshot"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vitest-dev/vitest/tree/main/packages/snapshot#readme",
+      "description": "Vitest snapshot manager"
+    },
+    {
+      "name": "@vitest/spy",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitest+spy@3.2.7/node_modules/@vitest/spy"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vitest-dev/vitest/tree/main/packages/spy#readme",
+      "description": "Lightweight Jest compatible spy implementation"
+    },
+    {
+      "name": "@vitest/utils",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@vitest+utils@3.2.7/node_modules/@vitest/utils"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vitest-dev/vitest/tree/main/packages/utils#readme",
+      "description": "Shared Vitest utility functions"
+    },
+    {
+      "name": "@xyflow/react",
+      "versions": [
+        "12.12.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@xyflow+react@12.12.0_@types+react-dom@19.3.0_@types+react@19.3.0__@types+react@19.3.0__a2dc164871d419910c9e7025366b0809/node_modules/@xyflow/react"
+      ],
+      "license": "MIT",
+      "homepage": "https://reactflow.dev",
+      "description": "React Flow - A highly customizable React library for building node-based editors and interactive flow charts."
+    },
+    {
+      "name": "@xyflow/system",
+      "versions": [
+        "0.0.83"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@xyflow+system@0.0.83/node_modules/@xyflow/system"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/xyflow/xyflow#readme",
+      "description": "xyflow core system that powers React Flow and Svelte Flow."
+    },
+    {
+      "name": "accepts",
+      "versions": [
+        "1.3.8",
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/accepts@1.3.8/node_modules/accepts",
+        "/workspace/Floxi.SI/node_modules/.pnpm/accepts@2.0.0/node_modules/accepts"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/accepts#readme",
+      "description": "Higher-level content negotiation"
+    },
+    {
+      "name": "acorn",
+      "versions": [
+        "8.19.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/acorn@8.19.0/node_modules/acorn"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/acornjs/acorn",
+      "description": "ECMAScript parser"
+    },
+    {
+      "name": "acorn-jsx",
+      "versions": [
+        "5.3.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/acorn-jsx@5.3.2_acorn@8.19.0/node_modules/acorn-jsx"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/acornjs/acorn-jsx",
+      "description": "Modern, fast React.js JSX parser"
+    },
+    {
+      "name": "ajv",
+      "versions": [
+        "6.15.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ajv@6.15.0/node_modules/ajv"
+      ],
+      "license": "MIT",
+      "author": "Evgeny Poberezkin",
+      "homepage": "https://github.com/ajv-validator/ajv",
+      "description": "Another JSON Schema Validator"
+    },
+    {
+      "name": "ansi-regex",
+      "versions": [
+        "5.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ansi-regex@5.0.1/node_modules/ansi-regex"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/chalk/ansi-regex#readme",
+      "description": "Regular expression for matching ANSI escape codes"
+    },
+    {
+      "name": "ansi-styles",
+      "versions": [
+        "4.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ansi-styles@4.3.0/node_modules/ansi-styles"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/chalk/ansi-styles#readme",
+      "description": "ANSI escape codes for styling strings in the terminal"
+    },
+    {
+      "name": "any-promise",
+      "versions": [
+        "1.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/any-promise@1.3.0/node_modules/any-promise"
+      ],
+      "license": "MIT",
+      "author": "Kevin Beaty",
+      "homepage": "http://github.com/kevinbeaty/any-promise",
+      "description": "Resolve any installed ES6 compatible promise"
+    },
+    {
+      "name": "append-field",
+      "versions": [
+        "1.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/append-field@1.0.0/node_modules/append-field"
+      ],
+      "license": "MIT",
+      "author": "Linus Unnebäck",
+      "homepage": "https://github.com/LinusU/node-append-field#readme"
+    },
+    {
+      "name": "assertion-error",
+      "versions": [
+        "2.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/assertion-error@2.0.1/node_modules/assertion-error"
+      ],
+      "license": "MIT",
+      "author": "Jake Luer",
+      "homepage": "https://github.com/chaijs/assertion-error#readme",
+      "description": "Error constructor for test and validation frameworks that implements standardized AssertionError specification."
+    },
+    {
+      "name": "balanced-match",
+      "versions": [
+        "1.0.2",
+        "4.0.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/balanced-match@1.0.2/node_modules/balanced-match",
+        "/workspace/Floxi.SI/node_modules/.pnpm/balanced-match@4.0.4/node_modules/balanced-match"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/juliangruber/balanced-match#readme",
+      "description": "Match balanced character pairs, like \"{\" and \"}\""
+    },
+    {
+      "name": "body-parser",
+      "versions": [
+        "2.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/body-parser@2.3.0_supports-color@8.1.1/node_modules/body-parser"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/expressjs/body-parser#readme",
+      "description": "Node.js body parsing middleware"
+    },
+    {
+      "name": "brace-expansion",
+      "versions": [
+        "1.1.21",
+        "5.0.12"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/brace-expansion@1.1.21/node_modules/brace-expansion",
+        "/workspace/Floxi.SI/node_modules/.pnpm/brace-expansion@5.0.12/node_modules/brace-expansion"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/juliangruber/brace-expansion#readme",
+      "description": "Brace expansion as known from sh/bash"
+    },
+    {
+      "name": "browserslist",
+      "versions": [
+        "4.29.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/browserslist@4.29.3/node_modules/browserslist"
+      ],
+      "license": "MIT",
+      "author": "Andrey Sitnik",
+      "homepage": "https://github.com/browserslist/browserslist#readme",
+      "description": "Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-env-preset"
+    },
+    {
+      "name": "bundle-require",
+      "versions": [
+        "5.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/bundle-require@5.1.0_esbuild@0.27.7/node_modules/bundle-require"
+      ],
+      "license": "MIT",
+      "description": "bundle and require a file"
+    },
+    {
+      "name": "busboy",
+      "versions": [
+        "1.6.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/busboy@1.6.0/node_modules/busboy"
+      ],
+      "license": "MIT",
+      "author": "Brian White",
+      "homepage": "https://github.com/mscdex/busboy#readme",
+      "description": "A streaming parser for HTML form data for node.js"
+    },
+    {
+      "name": "bytes",
+      "versions": [
+        "3.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/bytes@3.1.2/node_modules/bytes"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://github.com/visionmedia/bytes.js#readme",
+      "description": "Utility to parse a string bytes to bytes and vice-versa"
+    },
+    {
+      "name": "c12",
+      "versions": [
+        "3.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/c12@3.1.0/node_modules/c12"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/c12#readme",
+      "description": "Smart Config Loader"
+    },
+    {
+      "name": "cac",
+      "versions": [
+        "6.7.14"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/cac@6.7.14/node_modules/cac"
+      ],
+      "license": "MIT",
+      "author": "egoist",
+      "homepage": "https://github.com/egoist/cac#readme",
+      "description": "Simple yet powerful framework for building command-line apps."
+    },
+    {
+      "name": "call-bind-apply-helpers",
+      "versions": [
+        "1.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/call-bind-apply-helpers@1.0.2/node_modules/call-bind-apply-helpers"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/call-bind-apply-helpers#readme",
+      "description": "Helper functions around Function call/apply/bind, for use in `call-bind`"
+    },
+    {
+      "name": "call-bound",
+      "versions": [
+        "1.0.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/call-bound@1.0.4/node_modules/call-bound"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/call-bound#readme",
+      "description": "Robust call-bound JavaScript intrinsics, using `call-bind` and `get-intrinsic`."
+    },
+    {
+      "name": "callsites",
+      "versions": [
+        "3.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/callsites@3.1.0/node_modules/callsites"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/callsites#readme",
+      "description": "Get callsites from the V8 stack trace API"
+    },
+    {
+      "name": "chai",
+      "versions": [
+        "5.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/chai@5.3.3/node_modules/chai"
+      ],
+      "license": "MIT",
+      "author": "Jake Luer",
+      "homepage": "http://chaijs.com",
+      "description": "BDD/TDD assertion library for node.js and the browser. Test framework agnostic."
+    },
+    {
+      "name": "chalk",
+      "versions": [
+        "4.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/chalk@4.1.2/node_modules/chalk"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/chalk/chalk#readme",
+      "description": "Terminal string styling done right"
+    },
+    {
+      "name": "check-error",
+      "versions": [
+        "2.1.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/check-error@2.1.3/node_modules/check-error"
+      ],
+      "license": "MIT",
+      "author": "Jake Luer",
+      "homepage": "https://github.com/chaijs/check-error#readme",
+      "description": "Error comparison and information related utility for node and the browser"
+    },
+    {
+      "name": "chokidar",
+      "versions": [
+        "4.0.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/chokidar@4.0.3/node_modules/chokidar"
+      ],
+      "license": "MIT",
+      "author": "Paul Miller",
+      "homepage": "https://github.com/paulmillr/chokidar",
+      "description": "Minimal and efficient cross-platform file watching library"
+    },
+    {
+      "name": "citty",
+      "versions": [
+        "0.1.6",
+        "0.2.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/citty@0.1.6/node_modules/citty",
+        "/workspace/Floxi.SI/node_modules/.pnpm/citty@0.2.2/node_modules/citty"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/citty#readme",
+      "description": "Elegant CLI Builder"
+    },
+    {
+      "name": "classcat",
+      "versions": [
+        "5.0.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/classcat@5.0.5/node_modules/classcat"
+      ],
+      "license": "MIT",
+      "author": "Jorge Bucaran",
+      "homepage": "https://github.com/jorgebucaran/classcat#readme",
+      "description": "Build a class attribute string quickly."
+    },
+    {
+      "name": "color-convert",
+      "versions": [
+        "2.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/color-convert@2.0.1/node_modules/color-convert"
+      ],
+      "license": "MIT",
+      "author": "Heather Arthur",
+      "homepage": "https://github.com/Qix-/color-convert#readme",
+      "description": "Plain color conversion functions"
+    },
+    {
+      "name": "color-name",
+      "versions": [
+        "1.1.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/color-name@1.1.4/node_modules/color-name"
+      ],
+      "license": "MIT",
+      "author": "DY",
+      "homepage": "https://github.com/colorjs/color-name",
+      "description": "A list of color names and its values"
+    },
+    {
+      "name": "commander",
+      "versions": [
+        "4.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/commander@4.1.1/node_modules/commander"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://github.com/tj/commander.js#readme",
+      "description": "the complete solution for node.js command-line programs"
+    },
+    {
+      "name": "concat-map",
+      "versions": [
+        "0.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/concat-map@0.0.1/node_modules/concat-map"
+      ],
+      "license": "MIT",
+      "author": "James Halliday",
+      "homepage": "https://github.com/substack/node-concat-map#readme",
+      "description": "concatenative mapdashery"
+    },
+    {
+      "name": "concurrently",
+      "versions": [
+        "9.2.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/concurrently@9.2.5/node_modules/concurrently"
+      ],
+      "license": "MIT",
+      "author": "Kimmo Brunfeldt",
+      "homepage": "https://github.com/open-cli-tools/concurrently#readme",
+      "description": "Run commands concurrently"
+    },
+    {
+      "name": "confbox",
+      "versions": [
+        "0.1.8",
+        "0.2.4",
+        "0.3.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/confbox@0.1.8/node_modules/confbox",
+        "/workspace/Floxi.SI/node_modules/.pnpm/confbox@0.2.4/node_modules/confbox",
+        "/workspace/Floxi.SI/node_modules/.pnpm/confbox@0.3.1/node_modules/confbox"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/confbox#readme",
+      "description": "Compact YAML, TOML, JSONC, JSON5 and INI parser and serializer"
+    },
+    {
+      "name": "consola",
+      "versions": [
+        "3.4.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/consola@3.4.2/node_modules/consola"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/consola#readme",
+      "description": "Elegant Console Wrapper"
+    },
+    {
+      "name": "content-disposition",
+      "versions": [
+        "1.1.0",
+        "2.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/content-disposition@1.1.0/node_modules/content-disposition",
+        "/workspace/Floxi.SI/node_modules/.pnpm/content-disposition@2.0.1/node_modules/content-disposition"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/jshttp/content-disposition#readme",
+      "description": "Create and parse Content-Disposition header"
+    },
+    {
+      "name": "content-type",
+      "versions": [
+        "1.0.5",
+        "2.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/content-type@1.0.5/node_modules/content-type",
+        "/workspace/Floxi.SI/node_modules/.pnpm/content-type@2.1.0/node_modules/content-type"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/jshttp/content-type#readme",
+      "description": "Create and parse HTTP Content-Type header"
+    },
+    {
+      "name": "convert-source-map",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/convert-source-map@2.0.0/node_modules/convert-source-map"
+      ],
+      "license": "MIT",
+      "author": "Thorsten Lorenz",
+      "homepage": "https://github.com/thlorenz/convert-source-map",
+      "description": "Converts a source-map from/to  different formats and allows adding/changing properties."
+    },
+    {
+      "name": "cookie",
+      "versions": [
+        "0.7.2",
+        "1.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/cookie@0.7.2/node_modules/cookie",
+        "/workspace/Floxi.SI/node_modules/.pnpm/cookie@1.1.1/node_modules/cookie"
+      ],
+      "license": "MIT",
+      "author": "Roman Shtylman",
+      "homepage": "https://github.com/jshttp/cookie#readme",
+      "description": "HTTP server cookie parsing and serialization"
+    },
+    {
+      "name": "cookie-parser",
+      "versions": [
+        "1.4.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/cookie-parser@1.4.7/node_modules/cookie-parser"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://github.com/expressjs/cookie-parser#readme",
+      "description": "Parse HTTP request cookies"
+    },
+    {
+      "name": "cookie-signature",
+      "versions": [
+        "1.0.6",
+        "1.2.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/cookie-signature@1.0.6/node_modules/cookie-signature",
+        "/workspace/Floxi.SI/node_modules/.pnpm/cookie-signature@1.2.2/node_modules/cookie-signature"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://github.com/visionmedia/node-cookie-signature#readme",
+      "description": "Sign and unsign cookies"
+    },
+    {
+      "name": "cors",
+      "versions": [
+        "2.8.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/cors@2.8.6/node_modules/cors"
+      ],
+      "license": "MIT",
+      "author": "Troy Goode",
+      "homepage": "https://github.com/expressjs/cors#readme",
+      "description": "Node.js CORS middleware"
+    },
+    {
+      "name": "cross-spawn",
+      "versions": [
+        "7.0.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn"
+      ],
+      "license": "MIT",
+      "author": "André Cruz",
+      "homepage": "https://github.com/moxystudio/node-cross-spawn",
+      "description": "Cross platform child_process#spawn and child_process#spawnSync"
+    },
+    {
+      "name": "csstype",
+      "versions": [
+        "3.2.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/csstype@3.2.3/node_modules/csstype"
+      ],
+      "license": "MIT",
+      "author": "Fredrik Nicol",
+      "homepage": "https://github.com/frenic/csstype#readme",
+      "description": "Strict TypeScript and Flow types for style based on MDN data"
+    },
+    {
+      "name": "debug",
+      "versions": [
+        "4.4.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/debug@4.4.3_supports-color@8.1.1/node_modules/debug"
+      ],
+      "license": "MIT",
+      "author": "Josh Junon",
+      "homepage": "https://github.com/debug-js/debug#readme",
+      "description": "Lightweight debugging utility for Node.js and the browser"
+    },
+    {
+      "name": "deep-eql",
+      "versions": [
+        "5.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/deep-eql@5.0.2/node_modules/deep-eql"
+      ],
+      "license": "MIT",
+      "author": "Jake Luer",
+      "homepage": "https://github.com/chaijs/deep-eql#readme",
+      "description": "Improved deep equality testing for Node.js and the browser."
+    },
+    {
+      "name": "deep-is",
+      "versions": [
+        "0.1.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/deep-is@0.1.4/node_modules/deep-is"
+      ],
+      "license": "MIT",
+      "author": "Thorsten Lorenz",
+      "homepage": "https://github.com/thlorenz/deep-is#readme",
+      "description": "node's assert.deepEqual algorithm except for NaN being equal to NaN"
+    },
+    {
+      "name": "defu",
+      "versions": [
+        "6.1.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/defu@6.1.7/node_modules/defu"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/defu#readme",
+      "description": "Recursively assign default properties. Lightweight and Fast!"
+    },
+    {
+      "name": "depd",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/depd@2.0.0/node_modules/depd"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/dougwilson/nodejs-depd#readme",
+      "description": "Deprecate all the things"
+    },
+    {
+      "name": "destr",
+      "versions": [
+        "2.0.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/destr@2.0.5/node_modules/destr"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/destr#readme",
+      "description": "A faster, secure and convenient alternative for JSON.parse"
+    },
+    {
+      "name": "dunder-proto",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/dunder-proto@1.0.1/node_modules/dunder-proto"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/es-shims/dunder-proto#readme",
+      "description": "If available, the `Object.prototype.__proto__` accessor and mutator, call-bound"
+    },
+    {
+      "name": "ee-first",
+      "versions": [
+        "1.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ee-first@1.1.1/node_modules/ee-first"
+      ],
+      "license": "MIT",
+      "author": "Jonathan Ong",
+      "homepage": "https://github.com/jonathanong/ee-first#readme",
+      "description": "return the first event in a set of ee/event pairs"
+    },
+    {
+      "name": "effect",
+      "versions": [
+        "3.21.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/effect@3.21.0/node_modules/effect"
+      ],
+      "license": "MIT",
+      "homepage": "https://effect.website",
+      "description": "The missing standard library for TypeScript, for writing production-grade software."
+    },
+    {
+      "name": "emoji-regex",
+      "versions": [
+        "8.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/emoji-regex@8.0.0/node_modules/emoji-regex"
+      ],
+      "license": "MIT",
+      "author": "Mathias Bynens",
+      "homepage": "https://mths.be/emoji-regex",
+      "description": "A regular expression to match all Emoji-only symbols as per the Unicode Standard."
+    },
+    {
+      "name": "empathic",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/empathic@2.0.0/node_modules/empathic"
+      ],
+      "license": "MIT",
+      "author": "Luke Edwards",
+      "homepage": "https://github.com/lukeed/empathic#readme",
+      "description": "A set of small and fast Node.js utilities to understand your pathing needs."
+    },
+    {
+      "name": "encodeurl",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/encodeurl@2.0.0/node_modules/encodeurl"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/pillarjs/encodeurl#readme",
+      "description": "Encode a URL to a percent-encoded form, excluding already-encoded sequences"
+    },
+    {
+      "name": "engine.io",
+      "versions": [
+        "6.6.11"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/engine.io@6.6.11_supports-color@8.1.1/node_modules/engine.io"
+      ],
+      "license": "MIT",
+      "author": "Guillermo Rauch",
+      "homepage": "https://github.com/socketio/socket.io/tree/main/packages/engine.io#readme",
+      "description": "The realtime engine behind Socket.IO. Provides the foundation of a bidirectional connection between client and server"
+    },
+    {
+      "name": "engine.io-client",
+      "versions": [
+        "6.6.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/engine.io-client@6.6.7_supports-color@8.1.1/node_modules/engine.io-client"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/socketio/socket.io/tree/main/packages/engine.io-client#readme",
+      "description": "Client for the realtime Engine"
+    },
+    {
+      "name": "engine.io-parser",
+      "versions": [
+        "5.2.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/engine.io-parser@5.2.3/node_modules/engine.io-parser"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/socketio/socket.io/tree/main/packages/engine.io-parser#readme",
+      "description": "Parser for the client for the realtime Engine"
+    },
+    {
+      "name": "enhanced-resolve",
+      "versions": [
+        "5.26.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/enhanced-resolve@5.26.0/node_modules/enhanced-resolve"
+      ],
+      "license": "MIT",
+      "author": "Tobias Koppers @sokra",
+      "homepage": "https://github.com/webpack/enhanced-resolve#readme",
+      "description": "Offers a async require.resolve function. It's highly configurable."
+    },
+    {
+      "name": "es-define-property",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/es-define-property@1.0.1/node_modules/es-define-property"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/es-define-property#readme",
+      "description": "`Object.defineProperty`, but not IE 8's broken one."
+    },
+    {
+      "name": "es-errors",
+      "versions": [
+        "1.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/es-errors@1.3.0/node_modules/es-errors"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/es-errors#readme",
+      "description": "A simple cache for a few of the JS Error constructors."
+    },
+    {
+      "name": "es-module-lexer",
+      "versions": [
+        "1.7.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/es-module-lexer@1.7.0/node_modules/es-module-lexer"
+      ],
+      "license": "MIT",
+      "author": "Guy Bedford",
+      "homepage": "https://github.com/guybedford/es-module-lexer#readme",
+      "description": "Lexes ES modules returning their import/export metadata"
+    },
+    {
+      "name": "es-object-atoms",
+      "versions": [
+        "1.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/es-object-atoms@1.1.2/node_modules/es-object-atoms"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/es-object-atoms#readme",
+      "description": "ES Object-related atoms: Object, ToObject, RequireObjectCoercible"
+    },
+    {
+      "name": "esbuild",
+      "versions": [
+        "0.27.7",
+        "0.28.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/esbuild@0.27.7/node_modules/esbuild",
+        "/workspace/Floxi.SI/node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/evanw/esbuild#readme",
+      "description": "An extremely fast JavaScript and CSS bundler and minifier."
+    },
+    {
+      "name": "escalade",
+      "versions": [
+        "3.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/escalade@3.2.0/node_modules/escalade"
+      ],
+      "license": "MIT",
+      "author": "Luke Edwards",
+      "homepage": "https://github.com/lukeed/escalade#readme",
+      "description": "A tiny (183B to 210B) and fast utility to ascend parent directories"
+    },
+    {
+      "name": "escape-html",
+      "versions": [
+        "1.0.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/escape-html@1.0.3/node_modules/escape-html"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/component/escape-html#readme",
+      "description": "Escape string for use in HTML"
+    },
+    {
+      "name": "escape-string-regexp",
+      "versions": [
+        "4.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/escape-string-regexp@4.0.0/node_modules/escape-string-regexp"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/escape-string-regexp#readme",
+      "description": "Escape RegExp special characters"
+    },
+    {
+      "name": "eslint",
+      "versions": [
+        "9.39.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/eslint@9.39.5_jiti@2.7.0_supports-color@8.1.1/node_modules/eslint"
+      ],
+      "license": "MIT",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://eslint.org",
+      "description": "An AST-based pattern checker for JavaScript."
+    },
+    {
+      "name": "estree-walker",
+      "versions": [
+        "3.0.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/estree-walker@3.0.3/node_modules/estree-walker"
+      ],
+      "license": "MIT",
+      "author": "Rich Harris",
+      "homepage": "https://github.com/Rich-Harris/estree-walker#readme",
+      "description": "Traverse an ESTree-compliant AST"
+    },
+    {
+      "name": "etag",
+      "versions": [
+        "1.8.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/etag@1.8.1/node_modules/etag"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/etag#readme",
+      "description": "Create simple HTTP ETags"
+    },
+    {
+      "name": "express",
+      "versions": [
+        "5.2.1",
+        "5.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/express@5.2.1_supports-color@8.1.1/node_modules/express",
+        "/workspace/Floxi.SI/node_modules/.pnpm/express@5.3.0_supports-color@8.1.1/node_modules/express"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://expressjs.com/",
+      "description": "Fast, unopinionated, minimalist web framework"
+    },
+    {
+      "name": "exsolve",
+      "versions": [
+        "1.1.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/exsolve@1.1.3/node_modules/exsolve"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/exsolve#readme",
+      "description": "Module resolution utilities based on Node.js upstream implementation."
+    },
+    {
+      "name": "fast-check",
+      "versions": [
+        "3.23.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fast-check@3.23.2/node_modules/fast-check"
+      ],
+      "license": "MIT",
+      "author": "Nicolas DUBIEN",
+      "homepage": "https://fast-check.dev/",
+      "description": "Property based testing framework for JavaScript (like QuickCheck)"
+    },
+    {
+      "name": "fast-deep-equal",
+      "versions": [
+        "3.1.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fast-deep-equal@3.1.3/node_modules/fast-deep-equal"
+      ],
+      "license": "MIT",
+      "author": "Evgeny Poberezkin",
+      "homepage": "https://github.com/epoberezkin/fast-deep-equal#readme",
+      "description": "Fast deep equal"
+    },
+    {
+      "name": "fast-json-stable-stringify",
+      "versions": [
+        "2.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fast-json-stable-stringify@2.1.0/node_modules/fast-json-stable-stringify"
+      ],
+      "license": "MIT",
+      "author": "James Halliday",
+      "homepage": "https://github.com/epoberezkin/fast-json-stable-stringify",
+      "description": "deterministic `JSON.stringify()` - a faster version of substack's json-stable-strigify without jsonify"
+    },
+    {
+      "name": "fast-levenshtein",
+      "versions": [
+        "2.0.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fast-levenshtein@2.0.6/node_modules/fast-levenshtein"
+      ],
+      "license": "MIT",
+      "author": "Ramesh Nair",
+      "homepage": "https://github.com/hiddentao/fast-levenshtein#readme",
+      "description": "Efficient implementation of Levenshtein algorithm  with locale-specific collator support."
+    },
+    {
+      "name": "fast-safe-stringify",
+      "versions": [
+        "2.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fast-safe-stringify@2.1.1/node_modules/fast-safe-stringify"
+      ],
+      "license": "MIT",
+      "author": "David Mark Clements",
+      "homepage": "https://github.com/davidmarkclements/fast-safe-stringify#readme",
+      "description": "Safely and quickly serialize JavaScript objects"
+    },
+    {
+      "name": "fdir",
+      "versions": [
+        "6.5.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fdir@6.5.0_picomatch@4.0.7/node_modules/fdir"
+      ],
+      "license": "MIT",
+      "author": "thecodrr",
+      "homepage": "https://github.com/thecodrr/fdir#readme",
+      "description": "The fastest directory crawler & globbing alternative to glob, fast-glob, & tiny-glob. Crawls 1m files in < 1s"
+    },
+    {
+      "name": "file-entry-cache",
+      "versions": [
+        "8.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/file-entry-cache@8.0.0/node_modules/file-entry-cache"
+      ],
+      "license": "MIT",
+      "author": "Jared Wray",
+      "homepage": "https://github.com/jaredwray/file-entry-cache#readme",
+      "description": "Super simple cache for file metadata, useful for process that work o a given series of files and that only need to repeat the job on the changed ones since the previous run of the process"
+    },
+    {
+      "name": "file-type",
+      "versions": [
+        "21.3.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/file-type@21.3.4_supports-color@8.1.1/node_modules/file-type"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/file-type#readme",
+      "description": "Detect the file type of a file, stream, or data"
+    },
+    {
+      "name": "finalhandler",
+      "versions": [
+        "2.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/finalhandler@2.1.1_supports-color@8.1.1/node_modules/finalhandler"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/pillarjs/finalhandler#readme",
+      "description": "Node.js final http responder"
+    },
+    {
+      "name": "find-up",
+      "versions": [
+        "5.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/find-up@5.0.0/node_modules/find-up"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/find-up#readme",
+      "description": "Find a file or directory by walking up parent directories"
+    },
+    {
+      "name": "fix-dts-default-cjs-exports",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fix-dts-default-cjs-exports@1.0.1/node_modules/fix-dts-default-cjs-exports"
+      ],
+      "license": "MIT",
+      "author": "userquin",
+      "homepage": "https://github.com/userquin/fix-dts-default-cjs-exports#readme",
+      "description": "Utility to fix TypeScript declarations when using default exports in CommonJS."
+    },
+    {
+      "name": "flat-cache",
+      "versions": [
+        "4.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/flat-cache@4.0.1/node_modules/flat-cache"
+      ],
+      "license": "MIT",
+      "author": "Jared Wray",
+      "homepage": "https://github.com/jaredwray/flat-cache#readme",
+      "description": "A stupidly simple key/value storage using files to persist some data"
+    },
+    {
+      "name": "forwarded",
+      "versions": [
+        "0.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/forwarded@0.2.0/node_modules/forwarded"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/forwarded#readme",
+      "description": "Parse HTTP X-Forwarded-For header"
+    },
+    {
+      "name": "fresh",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/fresh@2.0.0/node_modules/fresh"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://github.com/jshttp/fresh#readme",
+      "description": "HTTP response freshness testing"
+    },
+    {
+      "name": "function-bind",
+      "versions": [
+        "1.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/function-bind@1.1.2/node_modules/function-bind"
+      ],
+      "license": "MIT",
+      "author": "Raynos",
+      "homepage": "https://github.com/Raynos/function-bind",
+      "description": "Implementation of Function.prototype.bind"
+    },
+    {
+      "name": "gensync",
+      "versions": [
+        "1.0.0-beta.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync"
+      ],
+      "license": "MIT",
+      "author": "Logan Smyth",
+      "homepage": "https://github.com/loganfsmyth/gensync",
+      "description": "Allows users to use generators in order to write common functions that can be both sync or async."
+    },
+    {
+      "name": "get-intrinsic",
+      "versions": [
+        "1.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/get-intrinsic@1.3.0/node_modules/get-intrinsic"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/get-intrinsic#readme",
+      "description": "Get and robustly cache all JS language-level intrinsics at first require time"
+    },
+    {
+      "name": "get-proto",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/get-proto@1.0.1/node_modules/get-proto"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/get-proto#readme",
+      "description": "Robustly get the [[Prototype]] of an object"
+    },
+    {
+      "name": "giget",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/giget@2.0.0/node_modules/giget"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/giget#readme",
+      "description": "Download templates and git repositories with pleasure!"
+    },
+    {
+      "name": "globals",
+      "versions": [
+        "14.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/globals@14.0.0/node_modules/globals"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/globals#readme",
+      "description": "Global identifiers from different JavaScript environments"
+    },
+    {
+      "name": "gopd",
+      "versions": [
+        "1.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/gopd@1.2.0/node_modules/gopd"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/gopd#readme",
+      "description": "`Object.getOwnPropertyDescriptor`, but accounts for IE's broken implementation."
+    },
+    {
+      "name": "has-flag",
+      "versions": [
+        "4.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/has-flag@4.0.0/node_modules/has-flag"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/has-flag#readme",
+      "description": "Check if argv has a specific flag"
+    },
+    {
+      "name": "has-symbols",
+      "versions": [
+        "1.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/has-symbols@1.1.0/node_modules/has-symbols"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/has-symbols#readme",
+      "description": "Determine if the JS environment has Symbol support. Supports spec, or shams."
+    },
+    {
+      "name": "hasown",
+      "versions": [
+        "2.0.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/hasown@2.0.4/node_modules/hasown"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/inspect-js/hasOwn#readme",
+      "description": "A robust, ES3 compatible, \"has own property\" predicate."
+    },
+    {
+      "name": "helmet",
+      "versions": [
+        "8.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/helmet@8.3.0/node_modules/helmet"
+      ],
+      "license": "MIT",
+      "author": "Adam Baldwin",
+      "homepage": "https://helmet.js.org/",
+      "description": "help secure Express/Connect apps with various HTTP headers"
+    },
+    {
+      "name": "http-errors",
+      "versions": [
+        "2.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/http-errors@2.0.1/node_modules/http-errors"
+      ],
+      "license": "MIT",
+      "author": "Jonathan Ong",
+      "homepage": "https://github.com/jshttp/http-errors#readme",
+      "description": "Create HTTP error objects"
+    },
+    {
+      "name": "iconv-lite",
+      "versions": [
+        "0.7.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/iconv-lite@0.7.3/node_modules/iconv-lite"
+      ],
+      "license": "MIT",
+      "author": "Alexander Shtuchkin",
+      "homepage": "https://github.com/pillarjs/iconv-lite",
+      "description": "Convert character encodings in pure javascript."
+    },
+    {
+      "name": "ignore",
+      "versions": [
+        "5.3.2",
+        "7.0.12"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ignore@5.3.2/node_modules/ignore",
+        "/workspace/Floxi.SI/node_modules/.pnpm/ignore@7.0.12/node_modules/ignore"
+      ],
+      "license": "MIT",
+      "author": "kael",
+      "homepage": "https://github.com/kaelzhang/node-ignore#readme",
+      "description": "Ignore is a manager and filter for .gitignore rules, the one used by eslint, gitbook and many others."
+    },
+    {
+      "name": "import-fresh",
+      "versions": [
+        "3.3.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/import-fresh@3.3.1/node_modules/import-fresh"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/import-fresh#readme",
+      "description": "Import a module while bypassing the cache"
+    },
+    {
+      "name": "imurmurhash",
+      "versions": [
+        "0.1.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/imurmurhash@0.1.4/node_modules/imurmurhash"
+      ],
+      "license": "MIT",
+      "author": "Jens Taylor",
+      "homepage": "https://github.com/jensyt/imurmurhash-js",
+      "description": "An incremental implementation of MurmurHash3"
+    },
+    {
+      "name": "ipaddr.js",
+      "versions": [
+        "1.9.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ipaddr.js@1.9.1/node_modules/ipaddr.js"
+      ],
+      "license": "MIT",
+      "author": "whitequark",
+      "homepage": "https://github.com/whitequark/ipaddr.js#readme",
+      "description": "A library for manipulating IPv4 and IPv6 addresses in JavaScript."
+    },
+    {
+      "name": "is-extglob",
+      "versions": [
+        "2.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/is-extglob@2.1.1/node_modules/is-extglob"
+      ],
+      "license": "MIT",
+      "author": "Jon Schlinkert",
+      "homepage": "https://github.com/jonschlinkert/is-extglob",
+      "description": "Returns true if a string has an extglob."
+    },
+    {
+      "name": "is-fullwidth-code-point",
+      "versions": [
+        "3.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/is-fullwidth-code-point@3.0.0/node_modules/is-fullwidth-code-point"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/is-fullwidth-code-point#readme",
+      "description": "Check if the character represented by a given Unicode code point is fullwidth"
+    },
+    {
+      "name": "is-glob",
+      "versions": [
+        "4.0.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/is-glob@4.0.3/node_modules/is-glob"
+      ],
+      "license": "MIT",
+      "author": "Jon Schlinkert",
+      "homepage": "https://github.com/micromatch/is-glob",
+      "description": "Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a better user experience."
+    },
+    {
+      "name": "is-promise",
+      "versions": [
+        "4.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/is-promise@4.0.0/node_modules/is-promise"
+      ],
+      "license": "MIT",
+      "author": "ForbesLindesay",
+      "homepage": "https://github.com/then/is-promise#readme",
+      "description": "Test whether an object looks like a promises-a+ promise"
+    },
+    {
+      "name": "jiti",
+      "versions": [
+        "2.7.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/jiti@2.7.0/node_modules/jiti"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/jiti#readme",
+      "description": "Runtime typescript and ESM support for Node.js"
+    },
+    {
+      "name": "joycon",
+      "versions": [
+        "3.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/joycon@3.1.1/node_modules/joycon"
+      ],
+      "license": "MIT",
+      "author": "egoist",
+      "homepage": "https://github.com/egoist/joycon#readme",
+      "description": "Load config with ease."
+    },
+    {
+      "name": "js-tokens",
+      "versions": [
+        "4.0.0",
+        "9.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/js-tokens@4.0.0/node_modules/js-tokens",
+        "/workspace/Floxi.SI/node_modules/.pnpm/js-tokens@9.0.1/node_modules/js-tokens"
+      ],
+      "license": "MIT",
+      "author": "Simon Lydell",
+      "homepage": "https://github.com/lydell/js-tokens#readme",
+      "description": "Tiny JavaScript tokenizer."
+    },
+    {
+      "name": "js-yaml",
+      "versions": [
+        "4.3.2",
+        "5.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/js-yaml@4.3.2/node_modules/js-yaml",
+        "/workspace/Floxi.SI/node_modules/.pnpm/js-yaml@5.3.0/node_modules/js-yaml"
+      ],
+      "license": "MIT",
+      "author": "Vladimir Zapparov",
+      "homepage": "https://github.com/nodeca/js-yaml#readme",
+      "description": "YAML 1.2 parser and serializer"
+    },
+    {
+      "name": "jsesc",
+      "versions": [
+        "3.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/jsesc@3.1.0/node_modules/jsesc"
+      ],
+      "license": "MIT",
+      "author": "Mathias Bynens",
+      "homepage": "https://mths.be/jsesc",
+      "description": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data."
+    },
+    {
+      "name": "json-buffer",
+      "versions": [
+        "3.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/json-buffer@3.0.1/node_modules/json-buffer"
+      ],
+      "license": "MIT",
+      "author": "Dominic Tarr",
+      "homepage": "https://github.com/dominictarr/json-buffer",
+      "description": "JSON parse & stringify that supports binary via bops & base64"
+    },
+    {
+      "name": "json-schema-traverse",
+      "versions": [
+        "0.4.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/json-schema-traverse@0.4.1/node_modules/json-schema-traverse"
+      ],
+      "license": "MIT",
+      "author": "Evgeny Poberezkin",
+      "homepage": "https://github.com/epoberezkin/json-schema-traverse#readme",
+      "description": "Traverse JSON Schema passing each schema object to callback"
+    },
+    {
+      "name": "json-stable-stringify-without-jsonify",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/json-stable-stringify-without-jsonify@1.0.1/node_modules/json-stable-stringify-without-jsonify"
+      ],
+      "license": "MIT",
+      "author": "James Halliday",
+      "homepage": "https://github.com/samn/json-stable-stringify",
+      "description": "deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results, with no public domain dependencies"
+    },
+    {
+      "name": "json5",
+      "versions": [
+        "2.2.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/json5@2.2.3/node_modules/json5"
+      ],
+      "license": "MIT",
+      "author": "Aseem Kishore",
+      "homepage": "http://json5.org/",
+      "description": "JSON for Humans"
+    },
+    {
+      "name": "keyv",
+      "versions": [
+        "4.5.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/keyv@4.5.4/node_modules/keyv"
+      ],
+      "license": "MIT",
+      "author": "Jared Wray",
+      "homepage": "https://github.com/jaredwray/keyv",
+      "description": "Simple key-value storage with support for multiple backends"
+    },
+    {
+      "name": "levn",
+      "versions": [
+        "0.4.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/levn@0.4.1/node_modules/levn"
+      ],
+      "license": "MIT",
+      "author": "George Zahariev",
+      "homepage": "https://github.com/gkz/levn",
+      "description": "Light ECMAScript (JavaScript) Value Notation - human written, concise, typed, flexible"
+    },
+    {
+      "name": "lilconfig",
+      "versions": [
+        "3.1.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lilconfig@3.1.3/node_modules/lilconfig"
+      ],
+      "license": "MIT",
+      "author": "antonk52",
+      "homepage": "https://github.com/antonk52/lilconfig#readme",
+      "description": "A zero-dependency alternative to cosmiconfig"
+    },
+    {
+      "name": "lines-and-columns",
+      "versions": [
+        "1.2.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lines-and-columns@1.2.4/node_modules/lines-and-columns"
+      ],
+      "license": "MIT",
+      "author": "Brian Donovan",
+      "homepage": "https://github.com/eventualbuddha/lines-and-columns#readme",
+      "description": "Maps lines and columns to character offsets and back."
+    },
+    {
+      "name": "load-esm",
+      "versions": [
+        "1.0.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/load-esm@1.0.3/node_modules/load-esm"
+      ],
+      "license": "MIT",
+      "author": "Borewit",
+      "homepage": "https://github.com/Borewit/load-esm#readme",
+      "description": "Utility to dynamically load ESM modules in TypeScript CommonJS projects"
+    },
+    {
+      "name": "load-tsconfig",
+      "versions": [
+        "0.2.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/load-tsconfig@0.2.5/node_modules/load-tsconfig"
+      ],
+      "license": "MIT",
+      "description": "Load tsconfig.json"
+    },
+    {
+      "name": "locate-path",
+      "versions": [
+        "6.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/locate-path@6.0.0/node_modules/locate-path"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/locate-path#readme",
+      "description": "Get the first path that exists on disk of multiple paths"
+    },
+    {
+      "name": "lodash",
+      "versions": [
+        "4.18.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lodash@4.18.1/node_modules/lodash"
+      ],
+      "license": "MIT",
+      "author": "John-David Dalton",
+      "homepage": "https://lodash.com/",
+      "description": "Lodash modular utilities."
+    },
+    {
+      "name": "lodash.merge",
+      "versions": [
+        "4.6.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lodash.merge@4.6.2/node_modules/lodash.merge"
+      ],
+      "license": "MIT",
+      "author": "John-David Dalton",
+      "homepage": "https://lodash.com/",
+      "description": "The Lodash method `_.merge` exported as a module."
+    },
+    {
+      "name": "loupe",
+      "versions": [
+        "3.2.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/loupe@3.2.1/node_modules/loupe"
+      ],
+      "license": "MIT",
+      "author": "Veselin Todorov",
+      "homepage": "https://github.com/chaijs/loupe",
+      "description": "Inspect utility for Node.js and browsers"
+    },
+    {
+      "name": "magic-string",
+      "versions": [
+        "0.30.21"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/magic-string@0.30.21/node_modules/magic-string"
+      ],
+      "license": "MIT",
+      "author": "Rich Harris",
+      "homepage": "https://github.com/Rich-Harris/magic-string#readme",
+      "description": "Modify strings, generate sourcemaps"
+    },
+    {
+      "name": "math-intrinsics",
+      "versions": [
+        "1.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/math-intrinsics@1.1.0/node_modules/math-intrinsics"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/es-shims/math-intrinsics#readme",
+      "description": "ES Math-related intrinsics and helpers, robustly cached."
+    },
+    {
+      "name": "media-typer",
+      "versions": [
+        "0.3.0",
+        "1.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/media-typer@0.3.0/node_modules/media-typer",
+        "/workspace/Floxi.SI/node_modules/.pnpm/media-typer@1.1.1/node_modules/media-typer"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/jshttp/media-typer#readme",
+      "description": "Simple RFC 6838 media type parser and formatter"
+    },
+    {
+      "name": "merge-descriptors",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/merge-descriptors@2.0.0/node_modules/merge-descriptors"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/sindresorhus/merge-descriptors#readme",
+      "description": "Merge objects using their property descriptors"
+    },
+    {
+      "name": "mime-db",
+      "versions": [
+        "1.52.0",
+        "1.54.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/mime-db@1.52.0/node_modules/mime-db",
+        "/workspace/Floxi.SI/node_modules/.pnpm/mime-db@1.54.0/node_modules/mime-db"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/mime-db#readme",
+      "description": "Media Type Database"
+    },
+    {
+      "name": "mime-types",
+      "versions": [
+        "2.1.35",
+        "3.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/mime-types@2.1.35/node_modules/mime-types",
+        "/workspace/Floxi.SI/node_modules/.pnpm/mime-types@3.0.2/node_modules/mime-types"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/mime-types#readme",
+      "description": "The ultimate javascript content-type utility."
+    },
+    {
+      "name": "mlly",
+      "versions": [
+        "1.8.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/mlly@1.8.2/node_modules/mlly"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/mlly#readme",
+      "description": "Missing ECMAScript module utils for Node.js"
+    },
+    {
+      "name": "ms",
+      "versions": [
+        "2.1.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ms@2.1.3/node_modules/ms"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/vercel/ms#readme",
+      "description": "Tiny millisecond conversion utility"
+    },
+    {
+      "name": "multer",
+      "versions": [
+        "2.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/multer@2.4.0/node_modules/multer"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/expressjs/multer#readme",
+      "description": "Middleware for handling `multipart/form-data`."
+    },
+    {
+      "name": "mz",
+      "versions": [
+        "2.7.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/mz@2.7.0/node_modules/mz"
+      ],
+      "license": "MIT",
+      "author": "Jonathan Ong",
+      "homepage": "https://github.com/normalize/mz#readme",
+      "description": "modernize node.js to current ECMAScript standards"
+    },
+    {
+      "name": "nanoid",
+      "versions": [
+        "3.3.20"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/nanoid@3.3.20/node_modules/nanoid"
+      ],
+      "license": "MIT",
+      "author": "Andrey Sitnik",
+      "homepage": "https://github.com/ai/nanoid#readme",
+      "description": "A tiny (116 bytes), secure URL-friendly unique string ID generator"
+    },
+    {
+      "name": "natural-compare",
+      "versions": [
+        "1.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/natural-compare@1.4.0/node_modules/natural-compare"
+      ],
+      "license": "MIT",
+      "author": "Lauri Rooden",
+      "homepage": "https://github.com/litejs/natural-compare-lite#readme",
+      "description": "Compare strings containing a mix of letters and numbers in the way a human being would in sort order."
+    },
+    {
+      "name": "negotiator",
+      "versions": [
+        "0.6.3",
+        "1.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/negotiator@0.6.3/node_modules/negotiator",
+        "/workspace/Floxi.SI/node_modules/.pnpm/negotiator@1.1.0/node_modules/negotiator"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/negotiator#readme",
+      "description": "HTTP content negotiation"
+    },
+    {
+      "name": "node-fetch-native",
+      "versions": [
+        "1.6.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/node-fetch-native@1.6.7/node_modules/node-fetch-native"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/node-fetch-native#readme",
+      "description": "better fetch for Node.js. Works on any JavaScript runtime!"
+    },
+    {
+      "name": "node-releases",
+      "versions": [
+        "2.0.58"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/node-releases@2.0.58/node_modules/node-releases"
+      ],
+      "license": "MIT",
+      "author": "Sergey Rubanov",
+      "homepage": "https://github.com/chicoxyzzy/node-releases#readme",
+      "description": "Node.js releases data"
+    },
+    {
+      "name": "nypm",
+      "versions": [
+        "0.6.10"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/nypm@0.6.10/node_modules/nypm"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/nypm#readme",
+      "description": "Unified Package Manager for Node.js"
+    },
+    {
+      "name": "object-assign",
+      "versions": [
+        "4.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/object-assign@4.1.1/node_modules/object-assign"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/object-assign#readme",
+      "description": "ES2015 `Object.assign()` ponyfill"
+    },
+    {
+      "name": "object-inspect",
+      "versions": [
+        "1.13.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/object-inspect@1.13.4/node_modules/object-inspect"
+      ],
+      "license": "MIT",
+      "author": "James Halliday",
+      "homepage": "https://github.com/inspect-js/object-inspect",
+      "description": "string representations of objects in node and the browser"
+    },
+    {
+      "name": "ohash",
+      "versions": [
+        "2.0.12"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ohash@2.0.12/node_modules/ohash"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/ohash#readme",
+      "description": "Simple object hashing, serialization and comparison utils."
+    },
+    {
+      "name": "on-finished",
+      "versions": [
+        "2.4.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/on-finished@2.4.1/node_modules/on-finished"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/on-finished#readme",
+      "description": "Execute a callback when a request closes, finishes, or errors"
+    },
+    {
+      "name": "optionator",
+      "versions": [
+        "0.9.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/optionator@0.9.4/node_modules/optionator"
+      ],
+      "license": "MIT",
+      "author": "George Zahariev",
+      "homepage": "https://github.com/gkz/optionator",
+      "description": "option parsing and help generation"
+    },
+    {
+      "name": "p-limit",
+      "versions": [
+        "3.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/p-limit@3.1.0/node_modules/p-limit"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/p-limit#readme",
+      "description": "Run multiple promise-returning & async functions with limited concurrency"
+    },
+    {
+      "name": "p-locate",
+      "versions": [
+        "5.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/p-locate@5.0.0/node_modules/p-locate"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/p-locate#readme",
+      "description": "Get the first fulfilled promise that satisfies the provided testing function"
+    },
+    {
+      "name": "parent-module",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/parent-module@1.0.1/node_modules/parent-module"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/parent-module#readme",
+      "description": "Get the path of the parent module"
+    },
+    {
+      "name": "parseurl",
+      "versions": [
+        "1.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/parseurl@1.3.3/node_modules/parseurl"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/pillarjs/parseurl#readme",
+      "description": "parse a url with memoization"
+    },
+    {
+      "name": "path-exists",
+      "versions": [
+        "4.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/path-exists@4.0.0/node_modules/path-exists"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/path-exists#readme",
+      "description": "Check if a path exists"
+    },
+    {
+      "name": "path-key",
+      "versions": [
+        "3.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/path-key@3.1.1/node_modules/path-key"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/path-key#readme",
+      "description": "Get the PATH environment variable key cross-platform"
+    },
+    {
+      "name": "path-to-regexp",
+      "versions": [
+        "8.4.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/path-to-regexp@8.4.2/node_modules/path-to-regexp"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/pillarjs/path-to-regexp#readme",
+      "description": "Express style path to RegExp utility"
+    },
+    {
+      "name": "pathe",
+      "versions": [
+        "2.0.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pathe@2.0.3/node_modules/pathe"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/pathe#readme",
+      "description": "Universal filesystem path utils"
+    },
+    {
+      "name": "pathval",
+      "versions": [
+        "2.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pathval@2.0.1/node_modules/pathval"
+      ],
+      "license": "MIT",
+      "author": "Veselin Todorov",
+      "homepage": "https://github.com/chaijs/pathval",
+      "description": "Object value retrieval given a string path"
+    },
+    {
+      "name": "perfect-debounce",
+      "versions": [
+        "1.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/perfect-debounce@1.0.0/node_modules/perfect-debounce"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/perfect-debounce#readme",
+      "description": ""
+    },
+    {
+      "name": "pg",
+      "versions": [
+        "8.23.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pg@8.23.1/node_modules/pg"
+      ],
+      "license": "MIT",
+      "author": "Brian Carlson",
+      "homepage": "https://github.com/brianc/node-postgres",
+      "description": "PostgreSQL client - pure javascript & libpq with the same API"
+    },
+    {
+      "name": "pg-cloudflare",
+      "versions": [
+        "1.4.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pg-cloudflare@1.4.1/node_modules/pg-cloudflare"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/brianc/node-postgres#readme",
+      "description": "A socket implementation that can run on Cloudflare Workers using native TCP connections."
+    },
+    {
+      "name": "pg-connection-string",
+      "versions": [
+        "2.14.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pg-connection-string@2.14.1/node_modules/pg-connection-string"
+      ],
+      "license": "MIT",
+      "author": "Blaine Bublitz",
+      "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string",
+      "description": "Functions for dealing with a PostgreSQL connection string"
+    },
+    {
+      "name": "pg-pool",
+      "versions": [
+        "3.14.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pg-pool@3.14.0_pg@8.23.1/node_modules/pg-pool"
+      ],
+      "license": "MIT",
+      "author": "Brian M. Carlson",
+      "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-pool#readme",
+      "description": "Connection pool for node-postgres"
+    },
+    {
+      "name": "pg-protocol",
+      "versions": [
+        "1.16.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pg-protocol@1.16.1/node_modules/pg-protocol"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/brianc/node-postgres#readme",
+      "description": "The postgres client/server binary protocol, implemented in TypeScript"
+    },
+    {
+      "name": "pg-types",
+      "versions": [
+        "2.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pg-types@2.2.0/node_modules/pg-types"
+      ],
+      "license": "MIT",
+      "author": "Brian M. Carlson",
+      "homepage": "https://github.com/brianc/node-pg-types",
+      "description": "Query result type converters for node-postgres"
+    },
+    {
+      "name": "pgpass",
+      "versions": [
+        "1.0.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pgpass@1.0.5/node_modules/pgpass"
+      ],
+      "license": "MIT",
+      "author": "Hannes Hörl",
+      "homepage": "https://github.com/hoegaarden/pgpass#readme",
+      "description": "Module for reading .pgpass"
+    },
+    {
+      "name": "picomatch",
+      "versions": [
+        "4.0.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/picomatch@4.0.7/node_modules/picomatch"
+      ],
+      "license": "MIT",
+      "author": "Jon Schlinkert",
+      "homepage": "https://github.com/micromatch/picomatch",
+      "description": "Blazing fast and accurate glob matcher written in JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions."
+    },
+    {
+      "name": "pirates",
+      "versions": [
+        "4.0.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pirates@4.0.7/node_modules/pirates"
+      ],
+      "license": "MIT",
+      "author": "Ari Porad",
+      "homepage": "https://github.com/danez/pirates#readme",
+      "description": "Properly hijack require, i.e., properly define require hooks and customizations"
+    },
+    {
+      "name": "pkg-types",
+      "versions": [
+        "1.3.1",
+        "2.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pkg-types@1.3.1/node_modules/pkg-types",
+        "/workspace/Floxi.SI/node_modules/.pnpm/pkg-types@2.3.3/node_modules/pkg-types"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/pkg-types#readme",
+      "description": "Node.js utilities and TypeScript definitions for `package.json` and `tsconfig.json`"
+    },
+    {
+      "name": "postcss",
+      "versions": [
+        "8.5.30"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/postcss@8.5.30/node_modules/postcss"
+      ],
+      "license": "MIT",
+      "author": "Andrey Sitnik",
+      "homepage": "https://postcss.org/",
+      "description": "Tool for transforming styles with JS plugins"
+    },
+    {
+      "name": "postcss-load-config",
+      "versions": [
+        "6.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/postcss-load-config@6.0.1_jiti@2.7.0_postcss@8.5.30_tsx@4.23.15/node_modules/postcss-load-config"
+      ],
+      "license": "MIT",
+      "author": "Michael Ciniawky",
+      "homepage": "https://github.com/postcss/postcss-load-config#readme",
+      "description": "Autoload Config for PostCSS"
+    },
+    {
+      "name": "postgres-array",
+      "versions": [
+        "2.0.0",
+        "3.0.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/postgres-array@2.0.0/node_modules/postgres-array",
+        "/workspace/Floxi.SI/node_modules/.pnpm/postgres-array@3.0.4/node_modules/postgres-array"
+      ],
+      "license": "MIT",
+      "author": "Ben Drucker",
+      "homepage": "https://github.com/bendrucker/postgres-array#readme",
+      "description": "Parse postgres array columns"
+    },
+    {
+      "name": "postgres-bytea",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/postgres-bytea@1.0.1/node_modules/postgres-bytea"
+      ],
+      "license": "MIT",
+      "author": "Ben Drucker",
+      "homepage": "https://github.com/bendrucker/postgres-bytea#readme",
+      "description": "Postgres bytea parser"
+    },
+    {
+      "name": "postgres-date",
+      "versions": [
+        "1.0.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/postgres-date@1.0.7/node_modules/postgres-date"
+      ],
+      "license": "MIT",
+      "author": "Ben Drucker",
+      "homepage": "https://github.com/bendrucker/postgres-date#readme",
+      "description": "Postgres date column parser"
+    },
+    {
+      "name": "postgres-interval",
+      "versions": [
+        "1.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/postgres-interval@1.2.0/node_modules/postgres-interval"
+      ],
+      "license": "MIT",
+      "author": "Ben Drucker",
+      "homepage": "https://github.com/bendrucker/postgres-interval#readme",
+      "description": "Parse Postgres interval columns"
+    },
+    {
+      "name": "prelude-ls",
+      "versions": [
+        "1.2.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/prelude-ls@1.2.1/node_modules/prelude-ls"
+      ],
+      "license": "MIT",
+      "author": "George Zahariev",
+      "homepage": "http://preludels.com",
+      "description": "prelude.ls is a functionally oriented utility library. It is powerful and flexible. Almost all of its functions are curried. It is written in, and is the recommended base library for, LiveScript."
+    },
+    {
+      "name": "prettier",
+      "versions": [
+        "3.9.10"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/prettier@3.9.10/node_modules/prettier"
+      ],
+      "license": "MIT",
+      "author": "James Long",
+      "homepage": "https://prettier.io",
+      "description": "Prettier is an opinionated code formatter"
+    },
+    {
+      "name": "proxy-addr",
+      "versions": [
+        "2.0.8"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/proxy-addr@2.0.8/node_modules/proxy-addr"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/jshttp/proxy-addr#readme",
+      "description": "Determine address of proxied request"
+    },
+    {
+      "name": "punycode",
+      "versions": [
+        "2.3.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/punycode@2.3.1/node_modules/punycode"
+      ],
+      "license": "MIT",
+      "author": "Mathias Bynens",
+      "homepage": "https://mths.be/punycode",
+      "description": "A robust Punycode converter that fully complies to RFC 3492 and RFC 5891, and works on nearly all JavaScript platforms."
+    },
+    {
+      "name": "pure-rand",
+      "versions": [
+        "6.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pure-rand@6.1.0/node_modules/pure-rand"
+      ],
+      "license": "MIT",
+      "author": "Nicolas DUBIEN",
+      "homepage": "https://github.com/dubzzz/pure-rand#readme",
+      "description": " Pure random number generator written in TypeScript"
+    },
+    {
+      "name": "range-parser",
+      "versions": [
+        "1.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/range-parser@1.3.0/node_modules/range-parser"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://github.com/jshttp/range-parser#readme",
+      "description": "Range header field string parser"
+    },
+    {
+      "name": "raw-body",
+      "versions": [
+        "3.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/raw-body@3.0.2/node_modules/raw-body"
+      ],
+      "license": "MIT",
+      "author": "Jonathan Ong",
+      "homepage": "https://github.com/stream-utils/raw-body#readme",
+      "description": "Get and validate the raw body of a readable stream."
+    },
+    {
+      "name": "rc9",
+      "versions": [
+        "2.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/rc9@2.1.2/node_modules/rc9"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/rc9#readme",
+      "description": "Read/Write config couldn't be easier!"
+    },
+    {
+      "name": "react",
+      "versions": [
+        "19.3.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/react@19.3.1/node_modules/react"
+      ],
+      "license": "MIT",
+      "homepage": "https://react.dev/",
+      "description": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "name": "react-dom",
+      "versions": [
+        "19.3.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/react-dom@19.3.1_react@19.3.1/node_modules/react-dom"
+      ],
+      "license": "MIT",
+      "homepage": "https://react.dev/",
+      "description": "React package for working with the DOM."
+    },
+    {
+      "name": "react-hook-form",
+      "versions": [
+        "7.90.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/react-hook-form@7.90.0_@types+react@19.3.0_react@19.3.1/node_modules/react-hook-form"
+      ],
+      "license": "MIT",
+      "author": "Beier",
+      "homepage": "https://react-hook-form.com",
+      "description": "Performant, flexible and extensible forms library for React Hooks"
+    },
+    {
+      "name": "react-refresh",
+      "versions": [
+        "0.18.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/react-refresh@0.18.0/node_modules/react-refresh"
+      ],
+      "license": "MIT",
+      "homepage": "https://react.dev/",
+      "description": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "name": "react-router",
+      "versions": [
+        "7.18.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/react-router@7.18.4_react-dom@19.3.1_react@19.3.1__react@19.3.1/node_modules/react-router"
+      ],
+      "license": "MIT",
+      "author": "Remix Software",
+      "homepage": "https://github.com/remix-run/react-router#readme",
+      "description": "Declarative routing for React"
+    },
+    {
+      "name": "readdirp",
+      "versions": [
+        "4.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/readdirp@4.1.2/node_modules/readdirp"
+      ],
+      "license": "MIT",
+      "author": "Thorsten Lorenz",
+      "homepage": "https://github.com/paulmillr/readdirp",
+      "description": "Recursive version of fs.readdir with small RAM & CPU footprint."
+    },
+    {
+      "name": "require-directory",
+      "versions": [
+        "2.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/require-directory@2.1.1/node_modules/require-directory"
+      ],
+      "license": "MIT",
+      "author": "Troy Goode",
+      "homepage": "https://github.com/troygoode/node-require-directory/",
+      "description": "Recursively iterates over specified directory, require()'ing each file, and returning a nested hash structure containing those modules."
+    },
+    {
+      "name": "resolve-from",
+      "versions": [
+        "4.0.0",
+        "5.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/resolve-from@4.0.0/node_modules/resolve-from",
+        "/workspace/Floxi.SI/node_modules/.pnpm/resolve-from@5.0.0/node_modules/resolve-from"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/resolve-from#readme",
+      "description": "Resolve the path of a module like `require.resolve()` but from a given path"
+    },
+    {
+      "name": "rollup",
+      "versions": [
+        "4.64.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/rollup@4.64.7/node_modules/rollup"
+      ],
+      "license": "MIT",
+      "author": "Rich Harris",
+      "homepage": "https://rollupjs.org/",
+      "description": "Next-generation ES module bundler"
+    },
+    {
+      "name": "router",
+      "versions": [
+        "2.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/router@2.2.0_supports-color@8.1.1/node_modules/router"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/pillarjs/router#readme",
+      "description": "Simple middleware-style router"
+    },
+    {
+      "name": "safer-buffer",
+      "versions": [
+        "2.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/safer-buffer@2.1.2/node_modules/safer-buffer"
+      ],
+      "license": "MIT",
+      "author": "Nikita Skovoroda",
+      "homepage": "https://github.com/ChALkeR/safer-buffer#readme",
+      "description": "Modern Buffer API polyfill without footguns"
+    },
+    {
+      "name": "scheduler",
+      "versions": [
+        "0.28.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/scheduler@0.28.0/node_modules/scheduler"
+      ],
+      "license": "MIT",
+      "homepage": "https://react.dev/",
+      "description": "Cooperative scheduler for the browser environment."
+    },
+    {
+      "name": "send",
+      "versions": [
+        "1.2.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/send@1.2.1_supports-color@8.1.1/node_modules/send"
+      ],
+      "license": "MIT",
+      "author": "TJ Holowaychuk",
+      "homepage": "https://github.com/pillarjs/send#readme",
+      "description": "Better streaming static file server with Range and conditional-GET support"
+    },
+    {
+      "name": "serve-static",
+      "versions": [
+        "2.2.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/serve-static@2.2.1_supports-color@8.1.1/node_modules/serve-static"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/expressjs/serve-static#readme",
+      "description": "Serve static files"
+    },
+    {
+      "name": "set-cookie-parser",
+      "versions": [
+        "2.7.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/set-cookie-parser@2.7.2/node_modules/set-cookie-parser"
+      ],
+      "license": "MIT",
+      "author": "Nathan Friedly",
+      "homepage": "https://github.com/nfriedly/set-cookie-parser",
+      "description": "Parses set-cookie headers into objects"
+    },
+    {
+      "name": "shebang-command",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/shebang-command@2.0.0/node_modules/shebang-command"
+      ],
+      "license": "MIT",
+      "author": "Kevin Mårtensson",
+      "homepage": "https://github.com/kevva/shebang-command#readme",
+      "description": "Get the command from a shebang"
+    },
+    {
+      "name": "shebang-regex",
+      "versions": [
+        "3.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/shebang-regex@3.0.0/node_modules/shebang-regex"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/shebang-regex#readme",
+      "description": "Regular expression for matching a shebang line"
+    },
+    {
+      "name": "shell-quote",
+      "versions": [
+        "1.12.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/shell-quote@1.12.0/node_modules/shell-quote"
+      ],
+      "license": "MIT",
+      "author": "James Halliday",
+      "homepage": "https://github.com/ljharb/shell-quote",
+      "description": "quote and parse shell commands"
+    },
+    {
+      "name": "side-channel",
+      "versions": [
+        "1.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/side-channel@1.1.1/node_modules/side-channel"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/side-channel#readme",
+      "description": "Store information about any JS value in a side channel. Uses WeakMap if available."
+    },
+    {
+      "name": "side-channel-list",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/side-channel-list@1.0.1/node_modules/side-channel-list"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/side-channel-list#readme",
+      "description": "Store information about any JS value in a side channel, using a linked list"
+    },
+    {
+      "name": "side-channel-map",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/side-channel-map@1.0.1/node_modules/side-channel-map"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/side-channel-map#readme",
+      "description": "Store information about any JS value in a side channel, using a Map"
+    },
+    {
+      "name": "side-channel-weakmap",
+      "versions": [
+        "1.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/side-channel-weakmap@1.0.2/node_modules/side-channel-weakmap"
+      ],
+      "license": "MIT",
+      "author": "Jordan Harband",
+      "homepage": "https://github.com/ljharb/side-channel-weakmap#readme",
+      "description": "Store information about any JS value in a side channel. Uses WeakMap if available."
+    },
+    {
+      "name": "socket.io",
+      "versions": [
+        "4.8.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/socket.io@4.8.4_supports-color@8.1.1/node_modules/socket.io"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/socketio/socket.io/tree/main/packages/socket.io#readme",
+      "description": "node.js realtime framework server"
+    },
+    {
+      "name": "socket.io-adapter",
+      "versions": [
+        "2.5.8"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/socket.io-adapter@2.5.8_supports-color@8.1.1/node_modules/socket.io-adapter"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/socketio/socket.io/tree/main/packages/socket.io-adapter#readme",
+      "description": "default socket.io in-memory adapter"
+    },
+    {
+      "name": "socket.io-client",
+      "versions": [
+        "4.8.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/socket.io-client@4.8.4_supports-color@8.1.1/node_modules/socket.io-client"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/socketio/socket.io/tree/main/packages/socket.io-client#readme",
+      "description": "Realtime application framework client"
+    },
+    {
+      "name": "socket.io-parser",
+      "versions": [
+        "4.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/socket.io-parser@4.2.7_supports-color@8.1.1/node_modules/socket.io-parser"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/socketio/socket.io/tree/main/packages/socket.io-client#readme",
+      "description": "socket.io protocol parser"
+    },
+    {
+      "name": "stackback",
+      "versions": [
+        "0.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/stackback@0.0.2/node_modules/stackback"
+      ],
+      "license": "MIT",
+      "author": "Roman Shtylman",
+      "homepage": "https://github.com/shtylman/node-stackback#readme",
+      "description": "return list of CallSite objects from a captured stacktrace"
+    },
+    {
+      "name": "statuses",
+      "versions": [
+        "2.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/statuses@2.0.2/node_modules/statuses"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/statuses#readme",
+      "description": "HTTP status utility"
+    },
+    {
+      "name": "std-env",
+      "versions": [
+        "3.10.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/std-env@3.10.0/node_modules/std-env"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/std-env#readme",
+      "description": "Runtime agnostic JS utils"
+    },
+    {
+      "name": "streamsearch",
+      "versions": [
+        "1.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/streamsearch@1.1.0/node_modules/streamsearch"
+      ],
+      "license": "MIT",
+      "author": "Brian White",
+      "homepage": "https://github.com/mscdex/streamsearch#readme",
+      "description": "Streaming Boyer-Moore-Horspool searching for node.js"
+    },
+    {
+      "name": "string-width",
+      "versions": [
+        "4.2.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/string-width@4.2.3/node_modules/string-width"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/string-width#readme",
+      "description": "Get the visual width of a string - the number of columns required to display it"
+    },
+    {
+      "name": "strip-ansi",
+      "versions": [
+        "6.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/strip-ansi@6.0.1/node_modules/strip-ansi"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/chalk/strip-ansi#readme",
+      "description": "Strip ANSI escape codes from a string"
+    },
+    {
+      "name": "strip-json-comments",
+      "versions": [
+        "3.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/strip-json-comments@3.1.1/node_modules/strip-json-comments"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/strip-json-comments#readme",
+      "description": "Strip comments from JSON. Lets you use comments in your JSON files!"
+    },
+    {
+      "name": "strip-literal",
+      "versions": [
+        "3.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/strip-literal@3.1.0/node_modules/strip-literal"
+      ],
+      "license": "MIT",
+      "author": "Anthony Fu",
+      "homepage": "https://github.com/antfu/strip-literal#readme",
+      "description": "Strip comments and string literals from JavaScript code"
+    },
+    {
+      "name": "strtok3",
+      "versions": [
+        "10.5.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/strtok3@10.5.0/node_modules/strtok3"
+      ],
+      "license": "MIT",
+      "author": "Borewit",
+      "homepage": "https://github.com/Borewit/strtok3#readme",
+      "description": "A promise based streaming tokenizer"
+    },
+    {
+      "name": "sucrase",
+      "versions": [
+        "3.35.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/sucrase@3.35.1/node_modules/sucrase"
+      ],
+      "license": "MIT",
+      "author": "Alan Pierce",
+      "homepage": "https://github.com/alangpierce/sucrase#readme",
+      "description": "Super-fast alternative to Babel for when you can target modern JS runtimes"
+    },
+    {
+      "name": "supports-color",
+      "versions": [
+        "7.2.0",
+        "8.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/supports-color@7.2.0/node_modules/supports-color",
+        "/workspace/Floxi.SI/node_modules/.pnpm/supports-color@8.1.1/node_modules/supports-color"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/chalk/supports-color#readme",
+      "description": "Detect whether a terminal supports color"
+    },
+    {
+      "name": "tailwindcss",
+      "versions": [
+        "4.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tailwindcss@4.3.3/node_modules/tailwindcss"
+      ],
+      "license": "MIT",
+      "homepage": "https://tailwindcss.com",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces."
+    },
+    {
+      "name": "tapable",
+      "versions": [
+        "2.3.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tapable@2.3.3/node_modules/tapable"
+      ],
+      "license": "MIT",
+      "author": "Tobias Koppers @sokra",
+      "homepage": "https://github.com/webpack/tapable",
+      "description": "Just a little module for plugins."
+    },
+    {
+      "name": "thenify",
+      "versions": [
+        "3.3.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/thenify@3.3.1/node_modules/thenify"
+      ],
+      "license": "MIT",
+      "author": "Jonathan Ong",
+      "homepage": "https://github.com/thenables/thenify#readme",
+      "description": "Promisify a callback-based function"
+    },
+    {
+      "name": "thenify-all",
+      "versions": [
+        "1.6.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/thenify-all@1.6.0/node_modules/thenify-all"
+      ],
+      "license": "MIT",
+      "author": "Jonathan Ong",
+      "homepage": "https://github.com/thenables/thenify-all#readme",
+      "description": "Promisifies all the selected functions in an object"
+    },
+    {
+      "name": "tinybench",
+      "versions": [
+        "2.9.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tinybench@2.9.0/node_modules/tinybench"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/tinylibs/tinybench#readme"
+    },
+    {
+      "name": "tinyexec",
+      "versions": [
+        "0.3.2",
+        "1.3.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tinyexec@0.3.2/node_modules/tinyexec",
+        "/workspace/Floxi.SI/node_modules/.pnpm/tinyexec@1.3.1/node_modules/tinyexec"
+      ],
+      "license": "MIT",
+      "author": "James Garbutt",
+      "homepage": "https://github.com/tinylibs/tinyexec#readme",
+      "description": "A minimal library for executing processes in Node"
+    },
+    {
+      "name": "tinyglobby",
+      "versions": [
+        "0.2.17"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tinyglobby@0.2.17/node_modules/tinyglobby"
+      ],
+      "license": "MIT",
+      "author": "Superchupu",
+      "homepage": "https://superchupu.dev/tinyglobby",
+      "description": "A fast and minimal alternative to globby and fast-glob"
+    },
+    {
+      "name": "tinypool",
+      "versions": [
+        "1.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tinypool@1.1.1/node_modules/tinypool"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/tinylibs/tinypool#readme",
+      "description": "A minimal and tiny Node.js Worker Thread Pool implementation, a fork of piscina, but with fewer features"
+    },
+    {
+      "name": "tinyrainbow",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tinyrainbow@2.0.0/node_modules/tinyrainbow"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/tinylibs/tinyrainbow#readme",
+      "description": "A small library to print colourful messages."
+    },
+    {
+      "name": "tinyspy",
+      "versions": [
+        "4.0.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tinyspy@4.0.6/node_modules/tinyspy"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/tinylibs/tinyspy#readme",
+      "description": "A minimal fork of nanospy, with more features"
+    },
+    {
+      "name": "toidentifier",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/toidentifier@1.0.1/node_modules/toidentifier"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/component/toidentifier#readme",
+      "description": "Convert a string of words to a JavaScript identifier"
+    },
+    {
+      "name": "token-types",
+      "versions": [
+        "6.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/token-types@6.1.2/node_modules/token-types"
+      ],
+      "license": "MIT",
+      "author": "Borewit",
+      "homepage": "https://github.com/Borewit/token-types#readme",
+      "description": "Common token types for decoding and encoding numeric and string values"
+    },
+    {
+      "name": "tree-kill",
+      "versions": [
+        "1.2.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tree-kill@1.2.2/node_modules/tree-kill"
+      ],
+      "license": "MIT",
+      "author": "Peteris Krumins",
+      "homepage": "https://github.com/pkrumins/node-tree-kill",
+      "description": "kill trees of processes"
+    },
+    {
+      "name": "ts-api-utils",
+      "versions": [
+        "2.5.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ts-api-utils@2.5.0_typescript@5.9.3/node_modules/ts-api-utils"
+      ],
+      "license": "MIT",
+      "author": "JoshuaKGoldberg",
+      "homepage": "https://github.com/JoshuaKGoldberg/ts-api-utils#readme",
+      "description": "Utility functions for working with TypeScript's API. Successor to the wonderful tsutils. 🛠️️"
+    },
+    {
+      "name": "tsup",
+      "versions": [
+        "8.5.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tsup@8.5.1_jiti@2.7.0_postcss@8.5.30_supports-color@8.1.1_tsx@4.23.15_typescript@5.9.3/node_modules/tsup"
+      ],
+      "license": "MIT",
+      "author": "EGOIST",
+      "homepage": "https://tsup.egoist.dev/",
+      "description": "Bundle your TypeScript library with no config, powered by esbuild"
+    },
+    {
+      "name": "tsx",
+      "versions": [
+        "4.23.15"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tsx@4.23.15/node_modules/tsx"
+      ],
+      "license": "MIT",
+      "author": "Hiroki Osame",
+      "homepage": "https://tsx.hirok.io",
+      "description": "TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM files"
+    },
+    {
+      "name": "type-check",
+      "versions": [
+        "0.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/type-check@0.4.0/node_modules/type-check"
+      ],
+      "license": "MIT",
+      "author": "George Zahariev",
+      "homepage": "https://github.com/gkz/type-check",
+      "description": "type-check allows you to check the types of JavaScript values at runtime with a Haskell like type syntax."
+    },
+    {
+      "name": "type-is",
+      "versions": [
+        "1.6.18",
+        "2.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/type-is@1.6.18/node_modules/type-is",
+        "/workspace/Floxi.SI/node_modules/.pnpm/type-is@2.1.0/node_modules/type-is"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/jshttp/type-is#readme",
+      "description": "Infer the content-type of a request."
+    },
+    {
+      "name": "typescript-eslint",
+      "versions": [
+        "8.71.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/typescript-eslint@8.71.2_eslint@9.39.5_jiti@2.7.0_supports-color@8.1.1__supports-color@8.1.1_typescript@5.9.3/node_modules/typescript-eslint"
+      ],
+      "license": "MIT",
+      "homepage": "https://typescript-eslint.io/packages/typescript-eslint",
+      "description": "Tooling which enables you to use TypeScript with ESLint"
+    },
+    {
+      "name": "ufo",
+      "versions": [
+        "1.6.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ufo@1.6.4/node_modules/ufo"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/unjs/ufo#readme",
+      "description": "URL utils for humans"
+    },
+    {
+      "name": "uid",
+      "versions": [
+        "2.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/uid@2.0.2/node_modules/uid"
+      ],
+      "license": "MIT",
+      "author": "Luke Edwards",
+      "homepage": "https://github.com/lukeed/uid#readme",
+      "description": "A tiny (130B to 205B) and fast utility to randomize unique IDs of fixed length"
+    },
+    {
+      "name": "uint8array-extras",
+      "versions": [
+        "1.6.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/uint8array-extras@1.6.0/node_modules/uint8array-extras"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/uint8array-extras#readme",
+      "description": "Useful utilities for working with Uint8Array (and Buffer)"
+    },
+    {
+      "name": "undici",
+      "versions": [
+        "7.30.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/undici@7.30.0/node_modules/undici"
+      ],
+      "license": "MIT",
+      "homepage": "https://undici.nodejs.org",
+      "description": "An HTTP/1.1 client, written from scratch for Node.js"
+    },
+    {
+      "name": "undici-types",
+      "versions": [
+        "7.24.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/undici-types@7.24.6/node_modules/undici-types"
+      ],
+      "license": "MIT",
+      "homepage": "https://undici.nodejs.org",
+      "description": "A stand-alone types package for Undici"
+    },
+    {
+      "name": "unpipe",
+      "versions": [
+        "1.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/unpipe@1.0.0/node_modules/unpipe"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/stream-utils/unpipe#readme",
+      "description": "Unpipe a stream from all destinations"
+    },
+    {
+      "name": "update-browserslist-db",
+      "versions": [
+        "1.3.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/update-browserslist-db@1.3.4_browserslist@4.29.3/node_modules/update-browserslist-db"
+      ],
+      "license": "MIT",
+      "author": "Andrey Sitnik",
+      "homepage": "https://github.com/browserslist/update-db#readme",
+      "description": "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config"
+    },
+    {
+      "name": "use-sync-external-store",
+      "versions": [
+        "1.7.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/use-sync-external-store@1.7.0_react@19.3.1/node_modules/use-sync-external-store"
+      ],
+      "license": "MIT",
+      "homepage": "https://github.com/react/react#readme",
+      "description": "Backwards compatible shim for React's useSyncExternalStore. Works with any React that supports hooks."
+    },
+    {
+      "name": "vary",
+      "versions": [
+        "1.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/vary@1.1.2/node_modules/vary"
+      ],
+      "license": "MIT",
+      "author": "Douglas Christopher Wilson",
+      "homepage": "https://github.com/jshttp/vary#readme",
+      "description": "Manipulate the HTTP Vary header"
+    },
+    {
+      "name": "vite",
+      "versions": [
+        "7.3.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/vite@7.3.7_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.23.15/node_modules/vite"
+      ],
+      "license": "MIT",
+      "author": "Evan You",
+      "homepage": "https://vite.dev",
+      "description": "Native-ESM powered web dev build tool"
+    },
+    {
+      "name": "vite-node",
+      "versions": [
+        "3.2.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/vite-node@3.2.4_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.32.0_supports-color@8.1.1_tsx@4.23.15/node_modules/vite-node"
+      ],
+      "license": "MIT",
+      "author": "Anthony Fu",
+      "homepage": "https://github.com/vitest-dev/vitest/blob/main/packages/vite-node#readme",
+      "description": "Vite as Node.js runtime"
+    },
+    {
+      "name": "vitest",
+      "versions": [
+        "3.2.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/vitest@3.2.7_@types+node@24.19.2_jiti@2.7.0_lightningcss@1.32.0_supports-color@8.1.1_tsx@4.23.15/node_modules/vitest"
+      ],
+      "license": "MIT",
+      "author": "Anthony Fu",
+      "homepage": "https://github.com/vitest-dev/vitest#readme",
+      "description": "Next generation testing framework powered by Vite"
+    },
+    {
+      "name": "why-is-node-running",
+      "versions": [
+        "2.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/why-is-node-running@2.3.0/node_modules/why-is-node-running"
+      ],
+      "license": "MIT",
+      "author": "Mathias Buus",
+      "homepage": "https://github.com/mafintosh/why-is-node-running",
+      "description": "Node is running but you don't know why? why-is-node-running is here to help you."
+    },
+    {
+      "name": "word-wrap",
+      "versions": [
+        "1.2.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/word-wrap@1.2.5/node_modules/word-wrap"
+      ],
+      "license": "MIT",
+      "author": "Jon Schlinkert",
+      "homepage": "https://github.com/jonschlinkert/word-wrap",
+      "description": "Wrap words to a specified length."
+    },
+    {
+      "name": "wrap-ansi",
+      "versions": [
+        "7.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/wrap-ansi@7.0.0/node_modules/wrap-ansi"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/chalk/wrap-ansi#readme",
+      "description": "Wordwrap a string with ANSI escape codes"
+    },
+    {
+      "name": "ws",
+      "versions": [
+        "8.21.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ws@8.21.3/node_modules/ws"
+      ],
+      "license": "MIT",
+      "author": "Einar Otto Stangvik",
+      "homepage": "https://github.com/websockets/ws",
+      "description": "Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js"
+    },
+    {
+      "name": "xmlhttprequest-ssl",
+      "versions": [
+        "2.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/xmlhttprequest-ssl@2.1.2/node_modules/xmlhttprequest-ssl"
+      ],
+      "license": "MIT",
+      "author": "Michael de Wit",
+      "homepage": "https://github.com/mjwwit/node-XMLHttpRequest#readme",
+      "description": "XMLHttpRequest for Node"
+    },
+    {
+      "name": "xtend",
+      "versions": [
+        "4.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/xtend@4.0.2/node_modules/xtend"
+      ],
+      "license": "MIT",
+      "author": "Raynos",
+      "homepage": "https://github.com/Raynos/xtend",
+      "description": "extend like a boss"
+    },
+    {
+      "name": "yargs",
+      "versions": [
+        "17.7.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/yargs@17.7.2/node_modules/yargs"
+      ],
+      "license": "MIT",
+      "homepage": "https://yargs.js.org/",
+      "description": "yargs the modern, pirate-themed, successor to optimist."
+    },
+    {
+      "name": "yocto-queue",
+      "versions": [
+        "0.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/yocto-queue@0.1.0/node_modules/yocto-queue"
+      ],
+      "license": "MIT",
+      "author": "Sindre Sorhus",
+      "homepage": "https://github.com/sindresorhus/yocto-queue#readme",
+      "description": "Tiny queue data structure"
+    },
+    {
+      "name": "zod",
+      "versions": [
+        "4.6.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/zod@4.6.7/node_modules/zod"
+      ],
+      "license": "MIT",
+      "author": "Colin McDonnell",
+      "homepage": "https://zod.dev",
+      "description": "TypeScript-first schema declaration and validation library with static type inference"
+    },
+    {
+      "name": "zustand",
+      "versions": [
+        "4.5.7",
+        "5.0.15"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/zustand@4.5.7_@types+react@19.3.0_react@19.3.1/node_modules/zustand",
+        "/workspace/Floxi.SI/node_modules/.pnpm/zustand@5.0.15_@types+react@19.3.0_react@19.3.1_use-sync-external-store@1.7.0_react@19.3.1_/node_modules/zustand"
+      ],
+      "license": "MIT",
+      "author": "Paul Henschel",
+      "homepage": "https://github.com/pmndrs/zustand",
+      "description": "🐻 Bear necessities for state management in React"
+    }
+  ],
+  "Apache-2.0": [
+    {
+      "name": "@eslint/config-array",
+      "versions": [
+        "0.21.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint+config-array@0.21.2_supports-color@8.1.1/node_modules/@eslint/config-array"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/eslint/rewrite/tree/main/packages/config-array#readme",
+      "description": "General purpose glob-based configuration matching."
+    },
+    {
+      "name": "@eslint/config-helpers",
+      "versions": [
+        "0.4.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint+config-helpers@0.4.2/node_modules/@eslint/config-helpers"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/eslint/rewrite/tree/main/packages/config-helpers#readme",
+      "description": "Helper utilities for creating ESLint configuration"
+    },
+    {
+      "name": "@eslint/core",
+      "versions": [
+        "0.17.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint+core@0.17.0/node_modules/@eslint/core"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/eslint/rewrite/tree/main/packages/core#readme",
+      "description": "Runtime-agnostic core of ESLint"
+    },
+    {
+      "name": "@eslint/object-schema",
+      "versions": [
+        "2.1.7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint+object-schema@2.1.7/node_modules/@eslint/object-schema"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/eslint/rewrite/tree/main/packages/object-schema#readme",
+      "description": "An object schema merger/validator"
+    },
+    {
+      "name": "@eslint/plugin-kit",
+      "versions": [
+        "0.4.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@eslint+plugin-kit@0.4.1/node_modules/@eslint/plugin-kit"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/eslint/rewrite/tree/main/packages/plugin-kit#readme",
+      "description": "Utilities for building ESLint plugins."
+    },
+    {
+      "name": "@humanfs/core",
+      "versions": [
+        "0.19.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@humanfs+core@0.19.2/node_modules/@humanfs/core"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/humanwhocodes/humanfs#readme",
+      "description": "The core of the humanfs library."
+    },
+    {
+      "name": "@humanfs/node",
+      "versions": [
+        "0.16.8"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@humanfs+node@0.16.8/node_modules/@humanfs/node"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/humanwhocodes/humanfs#readme",
+      "description": "The Node.js bindings of the humanfs library."
+    },
+    {
+      "name": "@humanfs/types",
+      "versions": [
+        "0.15.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@humanfs+types@0.15.0/node_modules/@humanfs/types"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/humanwhocodes/humanfs#readme",
+      "description": "The TypeScript types for the hfs project."
+    },
+    {
+      "name": "@humanwhocodes/module-importer",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@humanwhocodes+module-importer@1.0.1/node_modules/@humanwhocodes/module-importer"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zaks",
+      "homepage": "https://github.com/humanwhocodes/module-importer#readme",
+      "description": "Universal module importer for Node.js"
+    },
+    {
+      "name": "@humanwhocodes/retry",
+      "versions": [
+        "0.4.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@humanwhocodes+retry@0.4.3/node_modules/@humanwhocodes/retry"
+      ],
+      "license": "Apache-2.0",
+      "author": "Nicholas C. Zaks",
+      "homepage": "https://github.com/humanwhocodes/retry#readme",
+      "description": "A utility to retry failed async methods."
+    },
+    {
+      "name": "@playwright/test",
+      "versions": [
+        "1.64.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@playwright+test@1.64.1/node_modules/@playwright/test"
+      ],
+      "license": "Apache-2.0",
+      "author": "Microsoft Corporation",
+      "homepage": "https://playwright.dev",
+      "description": "A high-level API to automate web browsers"
+    },
+    {
+      "name": "@prisma/adapter-pg",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+adapter-pg@6.19.3/node_modules/@prisma/adapter-pg"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tom Houlé",
+      "homepage": "https://github.com/prisma/prisma#readme",
+      "description": "Prisma's driver adapter for \"pg\""
+    },
+    {
+      "name": "@prisma/client",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+client@6.19.3_prisma@6.19.3_typescript@5.9.3__typescript@5.9.3/node_modules/@prisma/client"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tim Suchanek",
+      "homepage": "https://www.prisma.io",
+      "description": "Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript ORM for Node.js that's tailored to your data. Supports PostgreSQL, CockroachDB, MySQL, MariaDB, SQL Server, SQLite & MongoDB databases."
+    },
+    {
+      "name": "@prisma/config",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+config@6.19.3/node_modules/@prisma/config"
+      ],
+      "license": "Apache-2.0",
+      "author": "Alberto Schiabel",
+      "homepage": "https://github.com/prisma/prisma#readme",
+      "description": "Internal package used to define and read Prisma configuration files"
+    },
+    {
+      "name": "@prisma/debug",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+debug@6.19.3/node_modules/@prisma/debug"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tim Suchanek",
+      "homepage": "https://www.prisma.io",
+      "description": "This package is intended for Prisma's internal use"
+    },
+    {
+      "name": "@prisma/driver-adapter-utils",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+driver-adapter-utils@6.19.3/node_modules/@prisma/driver-adapter-utils"
+      ],
+      "license": "Apache-2.0",
+      "author": "Alberto Schiabel",
+      "homepage": "https://github.com/prisma/prisma#readme",
+      "description": "Internal set of utilities and types for Prisma's driver adapters."
+    },
+    {
+      "name": "@prisma/engines",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+engines@6.19.3/node_modules/@prisma/engines"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tim Suchanek",
+      "homepage": "https://github.com/prisma/prisma#readme",
+      "description": "This package is intended for Prisma's internal use"
+    },
+    {
+      "name": "@prisma/engines-version",
+      "versions": [
+        "7.1.1-3.c2990dca591cba766e3b7ef5d9e8a84796e47ab7"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+engines-version@7.1.1-3.c2990dca591cba766e3b7ef5d9e8a84796e47ab7/node_modules/@prisma/engines-version"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tim Suchanek",
+      "homepage": "https://github.com/prisma/engines-wrapper#readme"
+    },
+    {
+      "name": "@prisma/fetch-engine",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+fetch-engine@6.19.3/node_modules/@prisma/fetch-engine"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tim Suchanek",
+      "homepage": "https://www.prisma.io",
+      "description": "This package is intended for Prisma's internal use"
+    },
+    {
+      "name": "@prisma/get-platform",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@prisma+get-platform@6.19.3/node_modules/@prisma/get-platform"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tim Suchanek",
+      "homepage": "https://www.prisma.io",
+      "description": "This package is intended for Prisma's internal use"
+    },
+    {
+      "name": "@scarf/scarf",
+      "versions": [
+        "1.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/@scarf+scarf@1.4.0/node_modules/@scarf/scarf"
+      ],
+      "license": "Apache-2.0",
+      "author": "Scarf Systems",
+      "homepage": "https://github.com/scarf-sh/scarf-js",
+      "description": "Scarf is like Google Analytics for your npm packages. Gain insights into how your packages are installed and used, and by which companies."
+    },
+    {
+      "name": "baseline-browser-mapping",
+      "versions": [
+        "2.11.28"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/baseline-browser-mapping@2.11.28/node_modules/baseline-browser-mapping"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/web-platform-dx/baseline-browser-mapping#readme",
+      "description": "A library for obtaining browser versions with their maximum supported Baseline feature set and Widely Available status."
+    },
+    {
+      "name": "detect-libc",
+      "versions": [
+        "2.1.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/detect-libc@2.1.2/node_modules/detect-libc"
+      ],
+      "license": "Apache-2.0",
+      "author": "Lovell Fuller",
+      "homepage": "https://github.com/lovell/detect-libc#readme",
+      "description": "Node.js module to detect the C standard library (libc) implementation family and version"
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "versions": [
+        "3.4.3",
+        "4.2.1",
+        "5.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/eslint-visitor-keys@3.4.3/node_modules/eslint-visitor-keys",
+        "/workspace/Floxi.SI/node_modules/.pnpm/eslint-visitor-keys@4.2.1/node_modules/eslint-visitor-keys",
+        "/workspace/Floxi.SI/node_modules/.pnpm/eslint-visitor-keys@5.0.1/node_modules/eslint-visitor-keys"
+      ],
+      "license": "Apache-2.0",
+      "author": "Toru Nagashima",
+      "homepage": "https://github.com/eslint/js/blob/main/packages/eslint-visitor-keys/README.md",
+      "description": "Constants and utilities about visitor keys to traverse AST."
+    },
+    {
+      "name": "expect-type",
+      "versions": [
+        "1.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/expect-type@1.4.0/node_modules/expect-type"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/mmkal/expect-type#readme"
+    },
+    {
+      "name": "playwright",
+      "versions": [
+        "1.64.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/playwright@1.64.1/node_modules/playwright"
+      ],
+      "license": "Apache-2.0",
+      "author": "Microsoft Corporation",
+      "homepage": "https://playwright.dev",
+      "description": "A high-level API to automate web browsers"
+    },
+    {
+      "name": "playwright-core",
+      "versions": [
+        "1.64.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/playwright-core@1.64.1/node_modules/playwright-core"
+      ],
+      "license": "Apache-2.0",
+      "author": "Microsoft Corporation",
+      "homepage": "https://playwright.dev",
+      "description": "A high-level API to automate web browsers"
+    },
+    {
+      "name": "prisma",
+      "versions": [
+        "6.19.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/prisma@6.19.3_typescript@5.9.3/node_modules/prisma"
+      ],
+      "license": "Apache-2.0",
+      "author": "Tim Suchanek",
+      "homepage": "https://www.prisma.io",
+      "description": "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one."
+    },
+    {
+      "name": "reflect-metadata",
+      "versions": [
+        "0.2.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/reflect-metadata@0.2.2/node_modules/reflect-metadata"
+      ],
+      "license": "Apache-2.0",
+      "author": "Ron Buckton",
+      "homepage": "http://rbuckton.github.io/reflect-metadata",
+      "description": "Polyfill for Metadata Reflection API"
+    },
+    {
+      "name": "rxjs",
+      "versions": [
+        "7.8.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/rxjs@7.8.2/node_modules/rxjs"
+      ],
+      "license": "Apache-2.0",
+      "author": "Ben Lesh",
+      "homepage": "https://rxjs.dev",
+      "description": "Reactive Extensions for modern JavaScript"
+    },
+    {
+      "name": "swagger-ui-dist",
+      "versions": [
+        "5.32.13"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/swagger-ui-dist@5.32.13/node_modules/swagger-ui-dist"
+      ],
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/swagger-api/swagger-ui#readme"
+    },
+    {
+      "name": "ts-interface-checker",
+      "versions": [
+        "0.1.13"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ts-interface-checker@0.1.13/node_modules/ts-interface-checker"
+      ],
+      "license": "Apache-2.0",
+      "author": "Dmitry S, Grist Labs",
+      "homepage": "https://github.com/gristlabs/ts-interface-checker#readme",
+      "description": "Runtime library to validate data against TypeScript interfaces"
+    },
+    {
+      "name": "typescript",
+      "versions": [
+        "5.9.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/typescript@5.9.3/node_modules/typescript"
+      ],
+      "license": "Apache-2.0",
+      "author": "Microsoft Corp.",
+      "homepage": "https://www.typescriptlang.org/",
+      "description": "TypeScript is a language for application scale JavaScript development"
+    }
+  ],
+  "Python-2.0": [
+    {
+      "name": "argparse",
+      "versions": [
+        "2.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/argparse@2.0.1/node_modules/argparse"
+      ],
+      "license": "Python-2.0",
+      "homepage": "https://github.com/nodeca/argparse#readme",
+      "description": "CLI arguments parser. Native port of python's argparse."
+    }
+  ],
+  "CC-BY-4.0": [
+    {
+      "name": "caniuse-lite",
+      "versions": [
+        "1.0.30001816"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/caniuse-lite@1.0.30001816/node_modules/caniuse-lite"
+      ],
+      "license": "CC-BY-4.0",
+      "author": "Ben Briggs",
+      "homepage": "https://github.com/browserslist/caniuse-lite#readme",
+      "description": "A smaller version of caniuse-db, with only the essentials!"
+    }
+  ],
+  "ISC": [
+    {
+      "name": "cliui",
+      "versions": [
+        "8.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/cliui@8.0.1/node_modules/cliui"
+      ],
+      "license": "ISC",
+      "author": "Ben Coe",
+      "homepage": "https://github.com/yargs/cliui#readme",
+      "description": "easily create complex multi-column command-line-interfaces"
+    },
+    {
+      "name": "d3-color",
+      "versions": [
+        "3.1.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-color@3.1.0/node_modules/d3-color"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-color/",
+      "description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch)."
+    },
+    {
+      "name": "d3-dispatch",
+      "versions": [
+        "3.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-dispatch@3.0.1/node_modules/d3-dispatch"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-dispatch/",
+      "description": "Register named callbacks and call them with arguments."
+    },
+    {
+      "name": "d3-drag",
+      "versions": [
+        "3.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-drag@3.0.0/node_modules/d3-drag"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-drag/",
+      "description": "Drag and drop SVG, HTML or Canvas using mouse or touch input."
+    },
+    {
+      "name": "d3-interpolate",
+      "versions": [
+        "3.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-interpolate@3.0.1/node_modules/d3-interpolate"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-interpolate/",
+      "description": "Interpolate numbers, colors, strings, arrays, objects, whatever!"
+    },
+    {
+      "name": "d3-selection",
+      "versions": [
+        "3.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-selection@3.0.0/node_modules/d3-selection"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-selection/",
+      "description": "Data-driven DOM manipulation: select elements and join them to data."
+    },
+    {
+      "name": "d3-timer",
+      "versions": [
+        "3.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-timer@3.0.1/node_modules/d3-timer"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-timer/",
+      "description": "An efficient queue capable of managing thousands of concurrent animations."
+    },
+    {
+      "name": "d3-transition",
+      "versions": [
+        "3.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-transition@3.0.1_d3-selection@3.0.0/node_modules/d3-transition"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-transition/",
+      "description": "Animated transitions for D3 selections."
+    },
+    {
+      "name": "d3-zoom",
+      "versions": [
+        "3.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-zoom@3.0.0/node_modules/d3-zoom"
+      ],
+      "license": "ISC",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-zoom/",
+      "description": "Pan and zoom SVG, HTML or Canvas using mouse or touch input."
+    },
+    {
+      "name": "electron-to-chromium",
+      "versions": [
+        "1.5.456"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/electron-to-chromium@1.5.456/node_modules/electron-to-chromium"
+      ],
+      "license": "ISC",
+      "author": "Kilian Valkhof",
+      "homepage": "https://github.com/Kilian/electron-to-chromium#readme",
+      "description": "Provides a list of electron-to-chromium version mappings"
+    },
+    {
+      "name": "flatted",
+      "versions": [
+        "3.4.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/flatted@3.4.4/node_modules/flatted"
+      ],
+      "license": "ISC",
+      "author": "Andrea Giammarchi",
+      "homepage": "https://github.com/WebReflection/flatted#readme",
+      "description": "A super light and fast circular JSON parser."
+    },
+    {
+      "name": "get-caller-file",
+      "versions": [
+        "2.0.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/get-caller-file@2.0.5/node_modules/get-caller-file"
+      ],
+      "license": "ISC",
+      "author": "Stefan Penner",
+      "homepage": "https://github.com/stefanpenner/get-caller-file#readme",
+      "description": ""
+    },
+    {
+      "name": "glob-parent",
+      "versions": [
+        "6.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/glob-parent@6.0.2/node_modules/glob-parent"
+      ],
+      "license": "ISC",
+      "author": "Gulp Team",
+      "homepage": "https://github.com/gulpjs/glob-parent#readme",
+      "description": "Extract the non-magic parent path from a glob string."
+    },
+    {
+      "name": "graceful-fs",
+      "versions": [
+        "4.2.11"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/graceful-fs@4.2.11/node_modules/graceful-fs"
+      ],
+      "license": "ISC",
+      "homepage": "https://github.com/isaacs/node-graceful-fs#readme",
+      "description": "A drop-in replacement for fs, making various improvements."
+    },
+    {
+      "name": "inherits",
+      "versions": [
+        "2.0.4"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/inherits@2.0.4/node_modules/inherits"
+      ],
+      "license": "ISC",
+      "homepage": "https://github.com/isaacs/inherits#readme",
+      "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()"
+    },
+    {
+      "name": "isexe",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/isexe@2.0.0/node_modules/isexe"
+      ],
+      "license": "ISC",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/isaacs/isexe#readme",
+      "description": "Minimal module to check if a file is executable."
+    },
+    {
+      "name": "iterare",
+      "versions": [
+        "1.2.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/iterare@1.2.1/node_modules/iterare"
+      ],
+      "license": "ISC",
+      "author": "Felix Becker",
+      "homepage": "https://github.com/felixfbecker/iterare#readme",
+      "description": "Array methods for ES6 Iterators"
+    },
+    {
+      "name": "lru-cache",
+      "versions": [
+        "5.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lru-cache@5.1.1/node_modules/lru-cache"
+      ],
+      "license": "ISC",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/isaacs/node-lru-cache#readme",
+      "description": "A cache object that deletes the least-recently-used items."
+    },
+    {
+      "name": "lucide-react",
+      "versions": [
+        "0.468.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lucide-react@0.468.0_react@19.3.1/node_modules/lucide-react"
+      ],
+      "license": "ISC",
+      "author": "Eric Fennis",
+      "homepage": "https://lucide.dev",
+      "description": "A Lucide icon library package for React applications"
+    },
+    {
+      "name": "minimatch",
+      "versions": [
+        "3.1.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/minimatch@3.1.5/node_modules/minimatch"
+      ],
+      "license": "ISC",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/isaacs/minimatch#readme",
+      "description": "a glob matcher in javascript"
+    },
+    {
+      "name": "once",
+      "versions": [
+        "1.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/once@1.4.0/node_modules/once"
+      ],
+      "license": "ISC",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/isaacs/once#readme",
+      "description": "Run a function exactly one time"
+    },
+    {
+      "name": "pg-int8",
+      "versions": [
+        "1.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/pg-int8@1.0.1/node_modules/pg-int8"
+      ],
+      "license": "ISC",
+      "homepage": "https://github.com/charmander/pg-int8#readme",
+      "description": "64-bit big-endian signed integer-to-string conversion"
+    },
+    {
+      "name": "picocolors",
+      "versions": [
+        "1.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors"
+      ],
+      "license": "ISC",
+      "author": "Alexey Raspopov",
+      "homepage": "https://github.com/alexeyraspopov/picocolors#readme",
+      "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors"
+    },
+    {
+      "name": "semver",
+      "versions": [
+        "6.3.1",
+        "7.8.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/semver@6.3.1/node_modules/semver",
+        "/workspace/Floxi.SI/node_modules/.pnpm/semver@7.8.5/node_modules/semver"
+      ],
+      "license": "ISC",
+      "author": "GitHub Inc.",
+      "homepage": "https://github.com/npm/node-semver#readme",
+      "description": "The semantic version parser used by npm."
+    },
+    {
+      "name": "setprototypeof",
+      "versions": [
+        "1.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/setprototypeof@1.2.0/node_modules/setprototypeof"
+      ],
+      "license": "ISC",
+      "author": "Wes Todd",
+      "homepage": "https://github.com/wesleytodd/setprototypeof",
+      "description": "A small polyfill for Object.setprototypeof"
+    },
+    {
+      "name": "siginfo",
+      "versions": [
+        "2.0.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/siginfo@2.0.0/node_modules/siginfo"
+      ],
+      "license": "ISC",
+      "author": "Emil Bay",
+      "homepage": "https://github.com/emilbayes/siginfo#readme",
+      "description": "Utility module to print pretty messages on SIGINFO/SIGUSR1"
+    },
+    {
+      "name": "split2",
+      "versions": [
+        "4.2.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/split2@4.2.0/node_modules/split2"
+      ],
+      "license": "ISC",
+      "author": "Matteo Collina",
+      "homepage": "https://github.com/mcollina/split2#readme",
+      "description": "split a Text Stream into a Line Stream, using Stream 3"
+    },
+    {
+      "name": "which",
+      "versions": [
+        "2.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/which@2.0.2/node_modules/which"
+      ],
+      "license": "ISC",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/isaacs/node-which#readme",
+      "description": "Like which(1) unix command. Find the first instance of an executable in the PATH."
+    },
+    {
+      "name": "wrappy",
+      "versions": [
+        "1.0.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/wrappy@1.0.2/node_modules/wrappy"
+      ],
+      "license": "ISC",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/npm/wrappy",
+      "description": "Callback wrapping utility"
+    },
+    {
+      "name": "y18n",
+      "versions": [
+        "5.0.8"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/y18n@5.0.8/node_modules/y18n"
+      ],
+      "license": "ISC",
+      "author": "Ben Coe",
+      "homepage": "https://github.com/yargs/y18n",
+      "description": "the bare-bones internationalization library used by yargs"
+    },
+    {
+      "name": "yallist",
+      "versions": [
+        "3.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/yallist@3.1.1/node_modules/yallist"
+      ],
+      "license": "ISC",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/isaacs/yallist#readme",
+      "description": "Yet Another Linked List"
+    },
+    {
+      "name": "yargs-parser",
+      "versions": [
+        "21.1.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/yargs-parser@21.1.1/node_modules/yargs-parser"
+      ],
+      "license": "ISC",
+      "author": "Ben Coe",
+      "homepage": "https://github.com/yargs/yargs-parser#readme",
+      "description": "the mighty option parser used by yargs"
+    }
+  ],
+  "BSD-3-Clause": [
+    {
+      "name": "d3-ease",
+      "versions": [
+        "3.0.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/d3-ease@3.0.1/node_modules/d3-ease"
+      ],
+      "license": "BSD-3-Clause",
+      "author": "Mike Bostock",
+      "homepage": "https://d3js.org/d3-ease/",
+      "description": "Easing functions for smooth animation."
+    },
+    {
+      "name": "deepmerge-ts",
+      "versions": [
+        "7.1.5"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/deepmerge-ts@7.1.5/node_modules/deepmerge-ts"
+      ],
+      "license": "BSD-3-Clause",
+      "author": "Rebecca Stevens",
+      "homepage": "https://github.com/RebeccaStevens/deepmerge-ts#readme",
+      "description": "Deeply merge 2 or more objects respecting type information."
+    },
+    {
+      "name": "esquery",
+      "versions": [
+        "1.7.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/esquery@1.7.0/node_modules/esquery"
+      ],
+      "license": "BSD-3-Clause",
+      "author": "Joel Feenstra",
+      "homepage": "https://github.com/estools/esquery/",
+      "description": "A query library for ECMAScript AST using a CSS selector like query language."
+    },
+    {
+      "name": "ieee754",
+      "versions": [
+        "1.2.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/ieee754@1.2.1/node_modules/ieee754"
+      ],
+      "license": "BSD-3-Clause",
+      "author": "Feross Aboukhadijeh",
+      "homepage": "https://github.com/feross/ieee754#readme",
+      "description": "Read/write IEEE754 floating point numbers from/to a Buffer or array-like object"
+    },
+    {
+      "name": "qs",
+      "versions": [
+        "6.16.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/qs@6.16.1/node_modules/qs"
+      ],
+      "license": "BSD-3-Clause",
+      "homepage": "https://github.com/ljharb/qs",
+      "description": "A querystring parser that supports nesting and arrays, with a depth limit"
+    },
+    {
+      "name": "source-map",
+      "versions": [
+        "0.7.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/source-map@0.7.6/node_modules/source-map"
+      ],
+      "license": "BSD-3-Clause",
+      "author": "Nick Fitzgerald",
+      "homepage": "https://github.com/mozilla/source-map",
+      "description": "Generates and consumes source maps"
+    },
+    {
+      "name": "source-map-js",
+      "versions": [
+        "1.2.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/source-map-js@1.2.2/node_modules/source-map-js"
+      ],
+      "license": "BSD-3-Clause",
+      "author": "Valentin 7rulnik Semirulnik",
+      "homepage": "https://github.com/7rulnik/source-map-js",
+      "description": "Generates and consumes source maps"
+    }
+  ],
+  "BSD-2-Clause": [
+    {
+      "name": "dotenv",
+      "versions": [
+        "16.6.1",
+        "17.4.2"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/dotenv@16.6.1/node_modules/dotenv",
+        "/workspace/Floxi.SI/node_modules/.pnpm/dotenv@17.4.2/node_modules/dotenv"
+      ],
+      "license": "BSD-2-Clause",
+      "homepage": "https://github.com/motdotla/dotenv#readme",
+      "description": "Loads environment variables from .env file"
+    },
+    {
+      "name": "eslint-scope",
+      "versions": [
+        "8.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/eslint-scope@8.4.0/node_modules/eslint-scope"
+      ],
+      "license": "BSD-2-Clause",
+      "homepage": "https://github.com/eslint/js/blob/main/packages/eslint-scope/README.md",
+      "description": "ECMAScript scope analyzer for ESLint"
+    },
+    {
+      "name": "espree",
+      "versions": [
+        "10.4.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/espree@10.4.0/node_modules/espree"
+      ],
+      "license": "BSD-2-Clause",
+      "author": "Nicholas C. Zakas",
+      "homepage": "https://github.com/eslint/js/blob/main/packages/espree/README.md",
+      "description": "An Esprima-compatible JavaScript parser built on Acorn"
+    },
+    {
+      "name": "esrecurse",
+      "versions": [
+        "4.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/esrecurse@4.3.0/node_modules/esrecurse"
+      ],
+      "license": "BSD-2-Clause",
+      "homepage": "https://github.com/estools/esrecurse",
+      "description": "ECMAScript AST recursive visitor"
+    },
+    {
+      "name": "estraverse",
+      "versions": [
+        "5.3.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/estraverse@5.3.0/node_modules/estraverse"
+      ],
+      "license": "BSD-2-Clause",
+      "homepage": "https://github.com/estools/estraverse",
+      "description": "ECMAScript JS AST traversal functions"
+    },
+    {
+      "name": "esutils",
+      "versions": [
+        "2.0.3"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/esutils@2.0.3/node_modules/esutils"
+      ],
+      "license": "BSD-2-Clause",
+      "homepage": "https://github.com/estools/esutils",
+      "description": "utility box for ECMAScript language tools"
+    },
+    {
+      "name": "uri-js",
+      "versions": [
+        "4.4.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/uri-js@4.4.1/node_modules/uri-js"
+      ],
+      "license": "BSD-2-Clause",
+      "author": "Gary Court",
+      "homepage": "https://github.com/garycourt/uri-js",
+      "description": "An RFC 3986/3987 compliant, scheme extendable URI/IRI parsing/validating/resolving library for JavaScript."
+    }
+  ],
+  "MPL-2.0": [
+    {
+      "name": "lightningcss",
+      "versions": [
+        "1.32.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lightningcss@1.32.0/node_modules/lightningcss"
+      ],
+      "license": "MPL-2.0",
+      "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
+      "description": "A CSS parser, transformer, and minifier written in Rust"
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "versions": [
+        "1.32.0"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/lightningcss-linux-x64-gnu@1.32.0/node_modules/lightningcss-linux-x64-gnu"
+      ],
+      "license": "MPL-2.0",
+      "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
+      "description": "A CSS parser, transformer, and minifier written in Rust"
+    }
+  ],
+  "BlueOak-1.0.0": [
+    {
+      "name": "minimatch",
+      "versions": [
+        "10.2.6"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/minimatch@10.2.6/node_modules/minimatch"
+      ],
+      "license": "BlueOak-1.0.0",
+      "author": "Isaac Z. Schlueter",
+      "homepage": "https://github.com/isaacs/minimatch#readme",
+      "description": "a glob matcher in javascript"
+    }
+  ],
+  "0BSD": [
+    {
+      "name": "tslib",
+      "versions": [
+        "2.8.1"
+      ],
+      "paths": [
+        "/workspace/Floxi.SI/node_modules/.pnpm/tslib@2.8.1/node_modules/tslib"
+      ],
+      "license": "0BSD",
+      "author": "Microsoft Corp.",
+      "homepage": "https://www.typescriptlang.org/",
+      "description": "Runtime library for TypeScript helper functions"
+    }
+  ]
+}
