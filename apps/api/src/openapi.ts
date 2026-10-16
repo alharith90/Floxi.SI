@@ -1,6 +1,13 @@
 import type { OpenAPIObject, SchemaObject } from "@nestjs/swagger";
 import { z } from "zod";
-import { DraftUpdate, Graph, WorkflowCreate, JsonObject } from "@floxi/shared";
+import {
+  DraftUpdate,
+  Graph,
+  WorkflowCreate,
+  JsonObject,
+  EndpointCreate,
+  CompletionRequest,
+} from "@floxi/shared";
 export function enrichOpenApi(doc: OpenAPIObject) {
   doc.components ??= {};
   doc.components.schemas ??= {};
@@ -36,6 +43,13 @@ export function enrichOpenApi(doc: OpenAPIObject) {
     return { $ref: `#/components/schemas/${name}` };
   }
   const bodies: [string, "post" | "patch", string, z.ZodType][] = [
+    ["/api/models", "post", "EndpointCreateRequest", EndpointCreate],
+    [
+      "/api/models/{id}/completions",
+      "post",
+      "CompletionRequest",
+      CompletionRequest,
+    ],
     [
       "/api/auth/setup",
       "post",

@@ -80,3 +80,22 @@ export type Retrieval = {
     citation: string;
   }[];
 };
+
+export const CompletionRequest = z
+  .object({
+    prompt: z.string().trim().min(1).max(32000),
+    system: z.string().max(8000).default(""),
+    temperature: z.number().min(0).max(2).default(0.7),
+    maxTokens: z.number().int().min(1).max(4096).default(512),
+  })
+  .strict();
+export type CompletionResult = {
+  text: string;
+  model: string;
+  endpointId: string;
+  usage: {
+    inputTokens: number | null;
+    outputTokens: number | null;
+    totalTokens: number | null;
+  };
+};

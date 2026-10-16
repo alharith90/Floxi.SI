@@ -16,10 +16,14 @@ This release delivers bounded portions of roadmap milestones 0–4. It does **no
 
 The foundation migrations create the application tables and add run idempotency/version integrity. Additive migrations also ensure pgvector is enabled and introduce the schema for the next AI/knowledge milestone. Existing databases and vector extension remain. The deployment runner uses transactional checksums because Prisma 6's experimental migration adapter failed on a PostgreSQL catalog type. See [ADR](architecture-decisions/001-foundation.md); do not use reset/dev/deploy against the preserved DB.
 
-Run `bash scripts/setup-cloud.sh` to refresh dependencies/migrations/build, and `bash scripts/start-cloud.sh` to start the database, API, worker and frontend. On first use create your own administrator. The application is a development foundation; production security/operations gates remain open. No push, deployment, environment publication, or remote CI execution is claimed.
+Run `bash scripts/setup-cloud.sh` to refresh dependencies/migrations/build, and `bash scripts/start-cloud.sh` to start the database, API, worker and frontend. On first use create your own administrator. The application is a development foundation; production security/operations gates remain open. No deployment, environment publication, or remote CI execution is claimed.
 
 Known limits include five node types, acyclic single-input graphs, English UI, bounded listing sizes, no generic code or HTTP execution, no retryable external side effects, no secret management, and no production payload encryption/retention. Screenshots show actual temporary test workflows and runs, not shipped sample outcomes.
 
-## AI/knowledge work in progress
+## Model registry and text playground — 16 October 2026
 
-This snapshot includes shared model/knowledge contracts, additive database tables, and an OpenAI / OpenAI-compatible transport adapter for Chat Completions, Responses text, and embeddings. These are scaffolding: no model-management endpoints, AI workflow nodes, knowledge ingestion/retrieval service, or related UI are wired into the application yet. No live provider calls have been validated. The runnable application remains the five-node foundation described above.
+The unfinished provider scaffold is now connected to authenticated REST endpoints and a Models screen. Administrators register workspace-owned endpoints and test discovery; permitted execution roles send bounded text requests through Chat Completions or Responses. Server environment bindings keep raw keys out of requests and metadata. Successful completion audit records omit prompt/answer content. OpenAPI includes shared request schemas.
+
+No new migration or dependency is needed: the existing additive AI schema is reused. Upgrade with the normal generate/migrate/build procedure, configure approved origins and optional server key bindings, then restart the API. Existing workflow behavior is retained.
+
+Validation adds five local HTTP-fixture tests for both inference protocols, embedding dimension checks, workspace/role denial, registry persistence and sanitized provider errors, plus a browser journey for model registration/reload and missing-key errors. Live inference has not been validated. Streaming, workflow AI execution, RAG, citations, guarded agents, endpoint editing/deletion and production quotas remain open; no full milestone 5 completion is claimed.
